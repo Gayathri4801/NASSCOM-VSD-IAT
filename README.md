@@ -11,7 +11,9 @@ The workshop is focused on providing hands-on experience with OpenLANE, a VLSI (
  		<li>
 			DAY-1  Inception of open-source EDA, OpenLANE and Sky130PDK
 			<ul>
-				<li><a href="DAY-1/SKY_1.md
+				<li><a href="DAY-1/SKY_1.md">How to talk to Computers</a></li>
+				<li><a href="DAY-1/SKY_1.md">SOC Design and How to use OpenLANE</a></li>
+				<li><a href="DAY-1/SKY_1.md">Get Familiar to open-source EDA Tools</a></li>
 			</ul>
 		</li>
 
