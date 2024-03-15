@@ -4,6 +4,20 @@ This repository is dedicated to showcasing the projects completed during a 5-day
 ## About the Workshop
 
 The workshop is focused on providing hands-on experience with OpenLANE, a VLSI (Very Large Scale Integration) design flow tool, and the Skywater 130nm Process Design Kit (PDK). OpenLANE automates the process of designing integrated circuits, aiming to produce clean GDSII output without needing much human intervention. Throughout the workshop, participants work with PicoRV32 it is a CPU core that follows the RISC-V RV32IMC Instruction Set Architecture, to understand the design flow concepts.
+
+<details open-"open">
+	<summary>Topics to be covered</summary>
+	<ol>
+ 		<li>
+			DAY-1  Inception of open-source EDA, OpenLANE and Sky130PDK
+			<ul>
+				<li><a href="DAY-1/SKY_1.md
+			</ul>
+		</li>
+
+
+
+
 ###  Topics to be covered in this workshop
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/9a052919-c3eb-4a8c-948d-2980010238ff)
