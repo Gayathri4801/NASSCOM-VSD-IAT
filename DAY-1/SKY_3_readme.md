@@ -121,4 +121,25 @@ Now lets go to the openlane prompt , run the command **run_synthesis**
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2523939c-f093-4ac4-940b-0f546efafce8)
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/623ef1df-251a-466e-afc9-2c53fc343b82)
+
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/436e1e14-bb16-4cc1-a5fd-1070e95d7fd7)
+
+
+Calculation of the Flop Ratio  =  No.of D flipflops/ Total no. of cells
+
+![g19](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/97796f85-ed39-45af-8841-81d318a3e904)
+How the results are populated in the runs folder. If we inside the results we will see synthesis folder. if we open that it should have synthesized netlist. synthesis.v
+we can check inside this netlist .all the mappings have been done.
+
+we can see report also
+1-yosys_4.stat_rpt this gives actual synthesis report.
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/887aad27-3a6f-4f49-b05d-2b6bd7126664)
+
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/6adca104-3e7b-4d67-87f1-5f41f43ec6ce)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/71389f65-095c-4198-9c7d-5a5f80ab17cc)
 
