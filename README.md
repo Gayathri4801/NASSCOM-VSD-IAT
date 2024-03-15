@@ -30,11 +30,6 @@ The workshop is focused on providing hands-on experience with OpenLANE, a VLSI (
   
 
 
-## SKY130_D1_SK3 - Get familiar to open-source EDA tools
-###  SKY_L1 -  OpenLANE Directory structure in detail
-
-the tool which we will wrok is OpenLANE,  OpenLane is a not a tool, it is basically flow  which compraises of many open-source EDA tools.
-OpenLANE is used to produce RTL2GDS
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d8c225c2-16fe-470d-9283-c2ad450ad0b3)
 
