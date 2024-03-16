@@ -2,7 +2,7 @@
 ###  SKY_L1 -  OpenLANE Directory structure in detail
 
 The tool which we will be working is OpenLANE,  OpenLane is a not a tool, it is basically flow  which compraises of many open-source EDA tools.
-OpenLANE is used to produce RTL2GDS
+OpenLANE is used to produce RTL2GDS.
 
 Open Terminal and change directory to Desktop.  
 To go to openlane_working_directory run the below commands. Oprnlane_directory has following 3 folders. 
@@ -48,6 +48,7 @@ Interactive session means it will execute step by step. To know at which step wh
 ![Screenshot 2024-03-15 185247](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/23f500dd-2725-4eb2-8f27-9c87f6a6dd1c)
 
 After this we would require to input all the packages that are required to run this flow.
+      
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/c0240f74-e73b-416d-84db-b4a813fad52e)
 
@@ -81,16 +82,16 @@ config.tcl value will overwrite the default value and then sky130A_sky130_fd_sc_
 
 Lets go back to openlane prompt, The first step is **Synthesis**, but before going to the synthesis stage we need to prepare file system or design setup which will be setting up the data for our design.
 
--- Go to picorv32a ----> In this for the time being we just have 3 files.  We need to setup the file system to the each and every step of the flow. we will be fetching files for particular location . That location needs to be created. This is called the design setup stage.
+-- Go to picorv32a ----> In this for the time being we just have 3 files.  We need to setup the file system to the each and every step of the flow. we will be fetching files for particular location . That location needs to be created. This is called the design setup stage.    
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a0d9e4db-b958-4635-9853-558a70a7c7ca)
 
 Here we can see somewhere merging files is complete that means it will merge the lef and tlef files and will provide only one file that is merged.lef.  
 Why it is merging these files? Because when we run openlane it need to go to two different location to fetch the lef information and layer information.
 
-With this design setup is completed.
+**With this, the design setup is completed**
 
-Before we run the Synthesis step we need to chek if anything new was created in our design directory. For this run below commands. runs folder was created. go inside that and follow the commands shown below.
+Before we run the Synthesis step we need to chek if anything new was created in our design directory. For this run below commands. **runs** folder was created. go inside that and follow the commands shown below.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2b376c26-1c76-4493-a5c9-1543d0bed107)
 
@@ -109,7 +110,7 @@ If we go inside each folder in the date folder contains, we can see below
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/7904fa52-d83b-4bad-810c-fb59eb9c6b0b)
 
-Here one more config.tcl is present. it can be little bit confusing when we see a lot of config.tcl files one is in design folder and one is in runs folder.
+Here one more config.tcl is present. it can be little bit confusing when we see a multiple of config.tcl files one is in design folder and one is in runs folder.
 In this config.tcl file - It shows which all default parameters is being taken by the run. some of the information in this config.tcl is ,
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/eba109dc-2bd0-4500-bab6-f87ce35a7866)
@@ -127,19 +128,21 @@ Now lets go to the openlane prompt , run the command **run_synthesis**
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/436e1e14-bb16-4cc1-a5fd-1070e95d7fd7)
 
 
-Calculation of the Flop Ratio  =  No.of D flipflops/ Total no. of cells
+### Calculation of the Flop Ratio  =  No.of D flipflops/ Total no. of cells
 
-![g19](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/97796f85-ed39-45af-8841-81d318a3e904)
-How the results are populated in the runs folder. If we inside the results we will see synthesis folder. if we open that it should have synthesized netlist. synthesis.v
-we can check inside this netlist .all the mappings have been done.
+![g19](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/92c2117e-8fba-442a-bea8-13ac5de6d00f)
 
 we can see report also
-1-yosys_4.stat_rpt this gives actual synthesis report.
+**1-yosys_4.stat_rpt** this gives actual synthesis report.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/887aad27-3a6f-4f49-b05d-2b6bd7126664)
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/71389f65-095c-4198-9c7d-5a5f80ab17cc)
+
+How the results are populated in the runs folder? If we go inside the results we will see synthesis folder. if we open that it should have synthesized netlist. **synthesis.v**
+we can check inside this netlist .all the mappings have been done.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/6adca104-3e7b-4d67-87f1-5f41f43ec6ce)
 
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/71389f65-095c-4198-9c7d-5a5f80ab17cc)
+
 
