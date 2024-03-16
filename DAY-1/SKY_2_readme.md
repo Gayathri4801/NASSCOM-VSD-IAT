@@ -1,5 +1,5 @@
-## SKY130_D1_SK2 - SOC Design and OpenLANE
-  ###  SKY_L1 -  Introduction to all components of open-source digital ASIC design
+# SKY130_D1_SK2 - SOC Design and OpenLANE
+  ##  SKY_L1 -  Introduction to all components of open-source digital ASIC design
 
 
   Desigining the ASIC design in automated way requires several things.  
@@ -154,7 +154,7 @@ The main goal of static timing analysis is to verify that despite these possible
 
 
 
-###  SKY_L3 - Introduction to OpenLANE and Strive chipsets
+##  SKY_L3 - Introduction to OpenLANE and Strive chipsets
 
 About OpenLANE Asic flow
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2e3e3299-fb60-4c67-8f49-b3f3029e041d)
@@ -167,7 +167,7 @@ About OpenLANE Asic flow
 
 
 
-###  SKY_L4 - Introduction to OpenLANE detailed ASIC Design flow
+##  SKY_L4 - Introduction to OpenLANE detailed ASIC Design flow
 
 
 
@@ -178,42 +178,41 @@ OpenLANE is based on several open source projects. such as below
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/baf9654f-d0fe-4c39-8b81-4866bae0be15)
 
-RTL synthesis
-RTL is fed to **yosys** with the design constraints yosys translates the RTL into logic circuits using engineering components this ckt cna be optimized and mapped into
+**RTL synthesis**
 
-cells in standard cell library using **ABC**, this ABC has to be guidedduring the optimization.
+RTL is fed to **yosys** with the design constraints yosys translates the RTL into logic circuits using engineering components this ckt can be optimized and mapped into cells in standard cell library using **ABC**, this ABC has to be guidedduring the optimization.
 
-The different designs can use different stratergies to achieve the design targets , for that we have synthesis exploration that can be used to generate the report, that shows how the design delay on the area.
+The different designs can use different stratergies to achieve the design targets , for that we have **synthesis exploration** that can be used to generate the report, that shows how the design delay on the area.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a9e295dd-437c-4d4c-9c32-80c0e51ca8f2)
 
-also OpenLANE has design exploration utility which can be used to sweep design configurations.
-we have 16 configs , the report is like below
+Also OpenLANE has **design exploration** utility which can be used to sweep design configurations.
+we have 16 configs , the report is looks like below,  
+This report is very useful to find the best config for OpenLANE.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/dd412617-aef6-4e18-8cea-49513dab7998)
-
-This report is very useful to find the best config for OpenLANE.
 
 Also design exploration can be used to OpenLANE regression testing.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/e1313290-aeaf-4fbb-bfa4-5e5f8972aefc)
 
-DFT
-After fab we can enable this to test the device. This step add extra logic to the original.
+**DFT (Design for Testablility)**
+
+After fabrication we can enable this to test the device. This step add extra logic to the ckt without modifying the original functionality.
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/3171c4e5-0cef-4936-8a69-fc33d091bacf)
 
-Physical implementation
+**Physical implementation**
 
-Several steps all of them are doing by openroad
+It includes several steps, all of them are doing by **openroad**.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/f1fc9411-aba4-47c6-93c1-ef68f87d9418)
 
-LEC
- if they are not equivalent, eventually the optimization is something wrong.
+**LEC**
+If they are not equivalent, eventually the optimization is something wrong.
  
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/21304e08-bb10-4692-bab7-78268e540d7e)
 
-During physical implementatio wehave a special step that is Fake antenna diodes insertion.
+During physical implementatio we have a special step that is Fake antenna diodes insertion.
 
 This is required to address the antenna diode violations.
 
@@ -225,11 +224,11 @@ This is required to address the antenna diode violations.
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/91066508-bec3-4c79-9215-032d23f678a6)
 
 
-STA
+**STA**
 
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2375b7a8-576d-4b2c-baa2-5ad4be6e1207)
 
-Signoff
+**Signoff**
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/91b8b267-a303-4875-86e9-8d4c2f90b387)
