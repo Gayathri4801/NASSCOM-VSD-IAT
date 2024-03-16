@@ -142,6 +142,8 @@ we can see report also
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/887aad27-3a6f-4f49-b05d-2b6bd7126664)
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2c86bc89-5e01-4aba-9de3-96af16f4ef2f)
+
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/71389f65-095c-4198-9c7d-5a5f80ab17cc)
 
 How the results are populated in the runs folder? If we go inside the results we will see synthesis folder. if we open that it should have synthesized netlist. **synthesis.v**
