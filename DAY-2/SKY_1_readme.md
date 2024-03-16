@@ -173,4 +173,8 @@ So we need less resistance path for clock paths. bigger the sixe lower the resis
 
 ## Steps to run Floorplan using OpenLANE
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/276ebe29-e9ad-436c-828a-1d1dd67f7379)
 
+Floorplan.def file
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/7242019d-3da3-494e-a757-a2c4250e837c)
