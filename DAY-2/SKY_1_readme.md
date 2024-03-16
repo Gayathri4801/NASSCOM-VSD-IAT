@@ -105,18 +105,17 @@ we didn't implement this multiple times, we just implemented once and the we reu
 
 ![Screenshot 2024-03-16 152612](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/44033088-9f3e-425f-ab9a-b5bffb741dc7)
 
-With this Define the locations of Pre-placed cells are finished.
+With this Defining the locations of Pre-placed cells are finished.
 
 ## De-coupling Capacitors
 
 We have to surround the pre-placed cells with the de-coupling capacitors.
 
-It is a part of ckt belongs to Block A, Block B or Block C. The o/p cells in this circuit switches from 0 to 1, there is an amount of current demand that it needs
-What happens here is there is small capcitor is setting at the o/p whenever transition happen from 0 to 1 the capacitor has to completely charge to represent logic 1. the amount of charge to this cap will be send by supply voltage. So it is a responsibility of supply voltage to send necessary supply current to this logic and all the other logics wherever the transition is happening from 0 to 1. Also whenever any piece of ckt switches the logic 1 to 0,it is a responsibility of VSS or GND to take that amount of charge.  
-0 to 1 caps which are present in ckt will charge up
-1 to 0 caps which are present in ckt will discharge , this discharging current should be well handled by supply and GND.  
+It is a part of ckt belongs to Block A, Block B or Block C. The o/p of cells in this circuit switches from 0 to 1,for that there is an amount of current demand that it needs What happens here is there is small capcitor is setting at the o/p, whenever transition happen from 0 to 1 the capacitor has to completely charge to represent logic 1. The amount of charge to this cap will be send by supply voltage. So it is a responsibility of supply voltage to send necessary supply current to this logic and all the other logics wherever the transition is happening from 0 to 1. Also whenever any piece of ckt switches the logic 1 to 0,it is a responsibility of GND to take that amount of charge.  
+Transition 0 to 1 caps which are present in ckt will charge up
+Transition 1 to 0 caps which are present in ckt will discharge , this discharging current should be well handled by supply and GND.  
 
-In reality when the power supply flow from a piece of ckt there will be a some amount drop. why because these wires are physical wire and got physical dimensions. Anything that has got physical dimensions will have resistance, capacitance and inductance that is associated with it.  
+In reality when the power supply flow from a piece of ckt there will be a some amount drop due to wire resistance. why because these wires are physical wire and got physical dimensions. Anything that has got physical dimensions will have resistance, capacitance and inductance that is associated with it.  
 
 ![Screenshot 2024-03-16 154953](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/7b436aff-9806-4d5b-9989-43d62c712bf4)
 
@@ -126,10 +125,10 @@ In reality when the power supply flow from a piece of ckt there will be a some a
 
 If Expected logic is 1. We can't guarantee whether we will be getting 1 or not. That is the problem of having long physical distance from the power supply to this piece of ckt.  
 
-we can avoid this issue with the help of De-coupling capacitors.
+we can avoid this issue with the help of **De-coupling capacitors**.
 
 De-coupling capacitors is huge cap which is filled with the charge. The voltage stored in this De-cap is equivalent to the supply voltage. If the power supply is 1V the De-cap has been charge till 1V.  
-Whenver the piece of the ckt switches it gets the current from the De-cap that.s why we will place De-cap close to the ckt.
+Whenver the piece of the ckt switches the ckt gets the current from the De-cap that's why we will place De-caps close to the ckt.
 This De-cap decouples the ckt from the main supply. Whenever the charge is discharged in the De-cap it will charge up by the power supply.
 
 ![Screenshot 2024-03-16 161135](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5a8c57c2-31ae-486a-8e04-6a67238d31c0)
@@ -140,4 +139,38 @@ Now these blocks will behave there will be no switching activity that will get m
 With this we have done with the local communication.  
 
 ## Power Planning  
+
+![Screenshot 2024-03-16 163500](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/57921819-0c7a-44ab-a509-3e29d3f9626f)
+
+![Screenshot 2024-03-16 164410](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d2d03d1a-d34a-4927-beb2-03fc3d62d3a0)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/cb994969-cf33-4bae-a3ab-d102426eeb7d)
+
+![Screenshot 2024-03-16 165244](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/483058eb-8956-4c13-bf0c-41f80de3ff5f)
+
+![Screenshot 2024-03-16 170535](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/40d8e45b-303f-43d8-ac54-138bf2f9be09)
+
+If we see here, the problems we are discussing here, these are coming due to one reason. The reason is the power supply is being provided from only one point. If there is multiple power supplies each cap will look into nearest supply and get the supply from it. It is the exact solution for this. We can see her how we can provide multiple power domains.
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/be770c0a-a383-4316-8631-28d0888e123e)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/f8a0ac8f-d10f-449b-a12d-562a4b2b3688)
+
+
+##  Pin Placement and logical cell placement blockage
+
+Generally the trend of pin placement is all input pins at the right side, All output pins are at the left side. But it might vary from design to design. We can place at the bottom and top also.
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a5984281-0b62-4cbd-a1b7-97babed8bc9c)
+
+Here two things to observe,   
+1. ordering of the inputs ports are random similarly for o/p ports also. The reason is , it is depend upon where we place the cells.
+Make sure all I/O ports are placed in IO region. A complete knowledge of the design is necessary/important to understand the pin placement. this basically creates the hand checking between frontend and backend. Frontend people one who defines the netlist connectivity and backend team has to decide the pin placement.  
+2. Here we can see clock ports are bigger compare to data ports because clock ports are the ports which is driving all the cells continuously.
+So we need less resistance path for clock paths. bigger the sixe lower the resistance. Make sure least resistance for clock paths.  Next make sure no other cells can be placed in the IO area.
+
+![Screenshot 2024-03-16 174452](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/953c1715-e47b-41eb-9c32-7f6972836167)
+
+## Steps to run Floorplan using OpenLANE
+
 
