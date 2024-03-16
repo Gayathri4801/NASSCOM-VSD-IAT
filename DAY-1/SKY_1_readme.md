@@ -1,5 +1,6 @@
 #  SKY130_D1_SK1 - How to talk to computers
-##  SKY_L1 - Introduction to QFN-48 Package, Chip, pads, core, die and Ips
+##  Introduction to QFN-48 Package, Chip, pads, core, die and Ips 
+
 ### 	• Fundamental Terminologies:-
 1. **Wire bonds** 
 
@@ -40,7 +41,7 @@
   ![Screenshot 2024-03-13 233620](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/98a68a35-53bb-4554-ae04-9756d4e01277)
 
 
-## SKY_L2 - Introduction to RISC - V
+## Introduction to RISC - V
 
   If the user is giving the specifications or instructions to the computer in the C language , the computer will not be able to understand the c language. we have to make this c program needs to be run on particular layout (Hardware). For this we need to pass this c program to particular hardware in certain terms.
 
@@ -59,7 +60,7 @@
   ![Screenshot 2024-03-13 235711](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5ee873fa-3b2a-48bc-b38b-fd4587ffaa12)
 
 
-  ### SKY_L3 - From Software applications to Hardware
+  ### From Software applications to Hardware
 
   Applications(Apps) which we are used in day do day life. These apps are actually run in Mobile or Laptop.  
   How these applications are working?
