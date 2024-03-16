@@ -10,7 +10,7 @@ The tool which we will be working is OpenLANE,  OpenLane is a not a tool, it is 
 OpenLANE is used to produce RTL2GDS.
 
 Open Terminal and change directory to Desktop.  
-To go to openlane_working_directory run the below commands. Oprnlane_directory has following 3 folders. 
+To go to openlane_working_directory run the below commands. Openlane_directory has following 3 folders. 
 
 ![g14](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/dbf3e5e4-fd67-43f7-9868-47c23effc689)
 
