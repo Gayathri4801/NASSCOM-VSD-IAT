@@ -1,4 +1,5 @@
 ## SKY130_D1_SK3 - Get familiar to open-source EDA tools
+**Topics to be covered**
 ###  --> OpenLANE Directory structure in detail.
 ###  -->Design preparation step.
 ###  -->Review files after design prep and run synthesis.
