@@ -27,13 +27,5 @@ The workshop is focused on providing hands-on experience with OpenLANE, a VLSI (
 
     
 
-  
-
-
-
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d8c225c2-16fe-470d-9283-c2ad450ad0b3)
-
-![Uploading image.png…]()
-
 
 
