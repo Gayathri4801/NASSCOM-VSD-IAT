@@ -15,6 +15,13 @@ The workshop is focused on providing hands-on experience with OpenLANE, a VLSI (
 				<li><a href="DAY-1/SKY_2_readme.md">SOC Design and How to use OpenLANE</a></li>
 				<li><a href="DAY-1/SKY_3_readme.md">Get Familiar to open-source EDA Tools</a></li>
 			</ul>
+			DAY-2  Good Floorplan vs bad Floorplan and Introduction to library cells
+			<ul>
+				<li><a href="DAY-2/SKY_1_readme.md">Chip Floor Planning considerations</a></li>
+				<li><a href="DAY-2/SKY_2_readme.md">Library Binding and placement</a></li>
+				<li><a href="DAY-2/SKY_3_readme.md">Cell Design and Characterization flows</a></li>
+				<li><a href="DAY-2/SKY_4_readme.md">General Timing characterization parameters</a></li>
+			</ul>
 		</li>
   	<ol>
 
