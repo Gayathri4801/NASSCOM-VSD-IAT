@@ -1,7 +1,6 @@
-# DAY1 -   Inception of open-source EDA, OpenLANE and Sky130PDK
-##  SKY130_D1_SK1 - How to talk to computers
-###  SKY_L1 - Introduction to QFN-48 Package, Chip, pads, core, die and Ips
-#### 	• Fundamental Terminologies:-
+#  SKY130_D1_SK1 - How to talk to computers
+##  SKY_L1 - Introduction to QFN-48 Package, Chip, pads, core, die and Ips
+### 	• Fundamental Terminologies:-
 1. **Wire bonds** 
 
      wire bonds are thin wires that connect the semiconductor die (chip) to the leads of the package, enabling electrical signals to travel between the chip and the external world. So that we will be able to transfer the signals between chip and outside the world.
