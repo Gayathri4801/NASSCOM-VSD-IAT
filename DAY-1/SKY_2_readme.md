@@ -1,5 +1,5 @@
 # SKY130_D1_SK2 - SOC Design and OpenLANE
-  ##  SKY_L1 -  Introduction to all components of open-source digital ASIC design
+  ## Introduction to all components of open-source digital ASIC design
 
 
   Desigining the ASIC design in automated way requires several things.  
@@ -45,7 +45,7 @@
 
 
 
-##  SKY_L2 - Simplified RTL2GDS Flow.
+##  Simplified RTL2GDS Flow.
 
    ASIC Design is very tough process that involves many steps. A Methodology is needed to make a succesfull ASIC design. The methodology is implemented using the certain flow.
 
@@ -154,7 +154,7 @@ The main goal of static timing analysis is to verify that despite these possible
 
 
 
-##  SKY_L3 - Introduction to OpenLANE and Strive chipsets
+##  Introduction to OpenLANE and Strive chipsets
 
 **About OpenLANE Asic flow**
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2e3e3299-fb60-4c67-8f49-b3f3029e041d)
@@ -169,7 +169,7 @@ The main goal of static timing analysis is to verify that despite these possible
 
 
 
-##  SKY_L4 - Introduction to OpenLANE detailed ASIC Design flow
+## Introduction to OpenLANE detailed ASIC Design flow
 
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8a173daa-5151-4b35-a28d-70cfb654fde5)
