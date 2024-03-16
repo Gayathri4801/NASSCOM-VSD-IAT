@@ -11,16 +11,16 @@ The workshop is focused on providing hands-on experience with OpenLANE, a VLSI (
  		<li>
 			DAY-1  Inception of open-source EDA, OpenLANE and Sky130PDK
 			<ul>
-				<li><a href="DAY-1/SKY_1_readme.md">How to talk to Computers</a></li>
-				<li><a href="DAY-1/SKY_2_readme.md">SOC Design and How to use OpenLANE</a></li>
-				<li><a href="DAY-1/SKY_3_readme.md">Get Familiar to open-source EDA Tools</a></li>
+				<li><a href="DAY-1/SKY_1_readme.md">SKY-1 How to talk to Computers</a></li>
+				<li><a href="DAY-1/SKY_2_readme.md">SKY-2 SOC Design and How to use OpenLANE</a></li>
+				<li><a href="DAY-1/SKY_3_readme.md">SKY-3 Get Familiar to open-source EDA Tools</a></li>
 			</ul>
 			DAY-2  Good Floorplan vs bad Floorplan and Introduction to library cells
 			<ul>
-				<li><a href="DAY-2/SKY_1_readme.md">Chip Floor Planning considerations</a></li>
-				<li><a href="DAY-2/SKY_2_readme.md">Library Binding and placement</a></li>
-				<li><a href="DAY-2/SKY_3_readme.md">Cell Design and Characterization flows</a></li>
-				<li><a href="DAY-2/SKY_4_readme.md">General Timing characterization parameters</a></li>
+				<li><a href="DAY-2/SKY_1_readme.md">SKY-1 Chip Floor Planning considerations</a></li>
+				<li><a href="DAY-2/SKY_2_readme.md">SKY-2 Library Binding and placement</a></li>
+				<li><a href="DAY-2/SKY_3_readme.md">SKY-3 Cell Design and Characterization flows</a></li>
+				<li><a href="DAY-2/SKY_4_readme.md">SKY-4 General Timing characterization parameters</a></li>
 			</ul>
 		</li>
   	<ol>
