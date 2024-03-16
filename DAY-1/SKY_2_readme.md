@@ -156,7 +156,7 @@ The main goal of static timing analysis is to verify that despite these possible
 
 ##  SKY_L3 - Introduction to OpenLANE and Strive chipsets
 
-About OpenLANE Asic flow
+**About OpenLANE Asic flow**
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2e3e3299-fb60-4c67-8f49-b3f3029e041d)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a824bc59-85de-4451-9675-7b3a3a0f188f)
