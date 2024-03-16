@@ -95,7 +95,7 @@ Why it is merging these files? Because when we run openlane it need to go to two
 
 **With this, the design setup is completed**
 
-Before we run the Synthesis step we need to chek if anything new was created in our design directory. For this run below commands. **runs** folder was created. go inside that and follow the commands shown below.
+Next, Before we run the Synthesis step we need to chek if anything new was created in our design directory. For this run below commands. **runs** folder was created. go inside that and follow the commands shown below.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2b376c26-1c76-4493-a5c9-1543d0bed107)
 
