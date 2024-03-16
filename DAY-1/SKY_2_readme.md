@@ -7,18 +7,12 @@
   **Hardware description languages**  
   **CAD Tools**  
   **PDK Data (Process design kits)**    
-	
-
- ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1f1fbbb4-6add-4fa0-85dd-973c94ef3ad7)
-
- There are 100's of RTL designs over the internet. Here are the some sites.
-
- ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/39bdbfda-b220-463a-bfde-1d88a4dadda9)
-
- #### Hardware description languages  
+ 	
+ #### * Hardware description languages  
  
  It is a specialized computer language used to describe the structure and behavior of electronic circuits.  
- #### PDK
+ There are 100's of RTL designs over the internet. Here are the some sites.
+ #### * PDK
 
  The interface between the designers and Foundries becomes the set of data files or documents.
  This set of files is called Process Design Kit.
@@ -28,13 +22,21 @@
  June30, 2020 Google released the first ever open source PDK.
  This PDK has its own information to design succesful ASIC using open source.
  
- #### CAD Tools
+ #### * CAD Tools
  
  CAD tools came as a powerful technology that empowers engineers to create highly complex and efficient integrated chip designs.  
- Mianly Used to automate the design.  
+ Mianly Used to automate the design.
  
- What kind of performance can we get in 130nm?  
- is 130nm fast?
+ ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1f1fbbb4-6add-4fa0-85dd-973c94ef3ad7)
+
+
+ ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/39bdbfda-b220-463a-bfde-1d88a4dadda9)
+
+   
+
+ 
+ **---->** What kind of performance can we get in 130nm?     
+ **-->** is 130nm fast?  
  **Yes**
  
  ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/27ee2a21-11df-47cc-9603-6499e6aae009)
@@ -52,17 +54,18 @@
    ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/3903a4cd-d696-467c-82f0-c1372ed5be3b)
 
 
-### Synthesis
+### --> Synthesis
 
 Synthesis is a process of converting RTL code into gate level netlist.
 
-Synthesis flow
-1.Read the inputs
-2.Elaborate -Translate the RTL code into gtech cells that are technology independent.
-3.Compile- Generate a netlist mapped to a specific library using command compile_ultra. During the compile ,we add the ICG(integrated clock gating)cells whose information is already provided in the RTL.
-4.Optimization-optimize the design such that it meets the area, power and timing specifications. Synthesis tool give high priority to timing over area and power constraints.
-5.DFT(Design for testability) - perform scan insertion in the optimized design.
-6.Generate output.
+**Synthesis flow**
+
+1.Read the inputs    
+2.Elaborate -Translate the RTL code into gtech cells that are technology independent.    
+3.Compile- Generate a netlist mapped to a specific library using command compile_ultra. During the compile ,we add the ICG(integrated clock gating)cells whose information is already provided in the RTL.     
+4.Optimization-optimize the design such that it meets the area, power and timing specifications. Synthesis tool give high priority to timing over area and power constraints.     
+5.DFT(Design for testability) - perform scan insertion in the optimized design.    
+6.Generate output.    
 
 Library building blocks of cells have regular layouts.
 
@@ -70,22 +73,21 @@ Typically the standard cell height is fixed rectangular shape but the width is v
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/c8cb686a-a817-4aad-a56e-4e1f3ff44575)
 
-### Chip Floor Plan
+### --> Chip Floor Plan
 
-Floor planning is the art of any physical design. A well and perfect floorplan leads to an ASIC design with higher performance and optimum area.
-
-Floor planning can be challenging in that, it deals with the placement of I/O pads and macros, the rows on the routing track will define as well as power and ground structure.
+**Floor planning is the art of any physical design. A well and perfect floorplan leads to an ASIC design with higher performance and optimum area.  
+Floor planning can be challenging in that, it deals with the placement of I/O pads and macros, the rows on the routing track will define as well as power and ground structure.**
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/81a5b214-fa92-49e1-a125-566ad32a57ab)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/efa71a6f-128e-4441-9d04-13c3d65c74e0)
 
-### Power Plan
+### --> Power Plan
 
-power planning is done to provide uniform supply voltages to all the cells in design the primary objective of power planning is to ensure that all on chip components like blocks, memory, IO cells etc have adequate power and ground connections. there are three levels of power distribution that
-Rings carries VDD and VSS around the chip 
-Straps carries VDD and VSS  from rings across the chip 
-Rails carries VDD and VSS to the standard cell of VDD and VSS
+**Power planning is done to provide uniform supply voltages to all the cells in design the primary objective of power planning is to ensure that all on chip components like blocks, memory, IO cells etc have adequate power and ground connections. there are three levels of power distribution that,   
+Rings carries VDD and VSS around the chip.      
+Straps carries VDD and VSS  from rings across the chip.     
+Rails carries VDD and VSS to the standard cell of VDD and VSS.**    
 
 Such parallel structures of power straps mean to reduce the resistance and IR drop and  to address the Electro migration.
 Typically the power distribution network uses the upper metal layers because these metal width's are high compare to lower metal layers.
@@ -94,50 +96,60 @@ If width will be more the resistance will be less.
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b3007865-135b-418b-acc2-80662ee392c9)
 
 
-### Placement
+### --> Placement
 
-placement is the process of placing the standard cells in the design and also Optimizes the design and determines the routability of the design.
+**Placement is the process of placing the standard cells in the design and also Optimizes the design and determines the routability of the design.**
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2b487d21-16e0-4dcc-8a51-36738ffd6255)
 
 Typically placement is done in two steps
 
-Global placement followed by detailed placement.
+**Global placement followed by detailed placement.**
 
-Global placement tries to find the optimal positions for cells, such positions are not necessarily legal. so cells may overlap or they may avoid rules.
+Global placement tries to find the optimal positions for cells, such positions are not necessarily legal. so cells may overlap or they may avoid rules.  
 Detailed the positions obtained from global placement are minimally altered to be legal.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/7a68c82e-2614-44c7-acb0-f779ad2ef4ac)
 
-### CTS Clock Tree Synthesis
+### --> CTS Clock Tree Synthesis
 
-CTS is used to connect the External Clock to the all internal clock pins of a flipflop. And also inserting a buffer or inverters to all the clock paths in a design to balance the skew.
+**CTS is used to connect the External Clock to the all internal clock pins of a flipflop. And also inserting a buffer or inverters to all the clock paths in a design to balance the skew.**
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1601839d-a5b5-4faa-a8d6-10cb7c4b111a)
 
-### Routing
+### --> Routing
 
 Signal routing
 
-Routing is the process of creating physical connections based on logical connectivity in the netlist file.
+**Routing is the process of creating physical connections based on logical connectivity in the netlist file.**
 
 The router uses the available metal layers as defined in the PDK. The PDK defines thickness, pitch , and min width of each metal layers and also defines vias.
-The SKYwater PDK defines its routing layers , lowest layers are titanium nitrate layers, the following 5 layers are aluminium layers.
+The SKYwater PDK defines its routing layers , lowest layers are Titron nitrate layers, and the following 5 layers are aluminium layers.
 
 Most Routers are Grid based routers.
 They first construct the routing grids out of the metal layer tracks.
 if the routing Grid is Huge then they will follow Divide and conquer method to route the metal laers.
 
-
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/58e56410-4a53-46c8-a81e-b747e1db4368)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/59785594-1230-46ee-ba29-a17e2c5b5f92)
 
-### Sign off
+### --> Sign off
 
-DRC LVS STA
+#### * DRC (Design Rule Checking (DRC):
 
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1b2e4cd3-98f6-49a6-9b58-5e1d93b7d0f4)
+DRC involves verifying that the layout design conforms to the geometric design rules specified by the semiconductor fabrication process. These rules define minimum widths, spacing, overlaps, and other layout parameters necessary for successful manufacturing. DRC ensures that the design does not violate these rules, which could lead to defects during fabrication.
+
+#### * LVS (Layout vs. Schematic Checking) :
+
+LVS compares the layout design (physical representation) of the circuit with its schematic (logical representation). It verifies that the physical layout matches the intended circuit connectivity specified in the schematic. LVS ensures that there are no errors such as missing connections, shorts, or open circuits that could affect the functionality of the IC.
+
+
+#### * STA (Static timing analysis)
+
+It is a method of validating the timing performance of a design by checking all possible paths for timing violations.
+The main goal of static timing analysis is to verify that despite these possible variations, all signals will arrive neither too early nor too late, and hence proper circuit operation can be assured. Since STA is capable of verifying every path, it can detect other problems like glitches, slow paths and clock skew.
+
 
 
 
@@ -167,11 +179,11 @@ OpenLANE is based on several open source projects. such as below
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/baf9654f-d0fe-4c39-8b81-4866bae0be15)
 
 RTL synthesis
-RTL is fed to yosys with the design constraints yosys translates the RTL into logic circuits using engineering components this ckt cna be optimized and mapped into
+RTL is fed to **yosys** with the design constraints yosys translates the RTL into logic circuits using engineering components this ckt cna be optimized and mapped into
 
-cells in standard cell library using ABC, this ABC has to be guidedduring the optimization.
+cells in standard cell library using **ABC**, this ABC has to be guidedduring the optimization.
 
-The different designs can use different stratergies to achieve the design targets , for that we have synthesis exploration that can be used to generate the report, that shows how the design delay on the area
+The different designs can use different stratergies to achieve the design targets , for that we have synthesis exploration that can be used to generate the report, that shows how the design delay on the area.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a9e295dd-437c-4d4c-9c32-80c0e51ca8f2)
 
