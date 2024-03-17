@@ -50,8 +50,8 @@ The first doubt is Where we will get theses cells information?
 
 The answer is **Library.**  It contains,  
 
-1.All cells information are available in the library.
-2.Shapes & Size of cells.
-3.Various flavours of the same cells.
-4. Timing and delay information of the cells.
+1.All cells information are available in the library.   
+2.Shapes & Size of cells.    
+3.Various flavours of the same cells.    
+4. Timing and delay information of the cells.    
 
