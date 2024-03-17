@@ -26,28 +26,23 @@ The workshop is focused on providing hands-on experience with OpenLANE, a VLSI (
 			<ul>
 				<li><a href="DAY-3/SKY_1_readme.md">SKY-1 Labs for CMOS inverter ngspice simulations</a></li>
 				<li><a href="DAY-3/SKY_2_readme.md">SKY-2 Inception of Layout CMOS fabrication process</a></li>
-				<li><a href="DAY-3/SKY_3_readme.md">SKY-3 Tech file labs</a></li>
-				
+				<li><a href="DAY-3/SKY_3_readme.md">SKY-3 Tech file labs</a></li>	
 			</ul>
-   			DAY-4  Pre-Layout timing analysis and importance of good clock tree
+      			DAY-4  Pre-Layout timing analysis and importance of good clock tree
 			<ul>
 				<li><a href="DAY-4/SKY_1_readme.md">SKY-1 Timing modelling using delay tables</a></li>
 				<li><a href="DAY-4/SKY_2_readme.md">SKY-2 Timing analysis with ideal clocks using openSTA</a></li>
 				<li><a href="DAY-4/SKY_3_readme.md">SKY-3 Clock tree synthesis TritonCTS and signal integrity</a></li>
-    				<li><a href="DAY-4/SKY_4_readme.md">SKY-4 Timing analysis with real clocks using openSTA</a></li>
-				
+    			 	<li><a href="DAY-4/SKY_4_readme.md">SKY-4 Timing analysis with real clocks using openSTA</a></li>
 			</ul>
    			DAY-5  Final steps for RTL2GDS using tritonRoute and openSTA
 			<ul>
 				<li><a href="DAY-5/SKY_1_readme.md">SKY-1 Routing and design rule check (DRC)</a></li>
 				<li><a href="DAY-5/SKY_2_readme.md">SKY-2 Power distribution Network and routing</a></li>
 				<li><a href="DAY-5/SKY_3_readme.md">SKY-3 TritonRoute Features</a></li>
-				
 			</ul>
-   
 		</li>
   	<ol>
-
 </details>
 
 
