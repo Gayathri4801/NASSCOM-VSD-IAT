@@ -182,11 +182,13 @@ Floorplan.def file
 ![Screenshot 2024-03-16 204405](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d76c0e47-339e-4f65-ad83-03570de944b7)
 
 
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ae9e2ce9-05a5-4990-b53c-0b08a385b28f)
-
 If we want change anything in floorplan, we need to make changes in design related config file.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d3ad54f3-b96d-465f-9ad0-f7d6306b08d3)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ae9e2ce9-05a5-4990-b53c-0b08a385b28f)
+
+The metal layer information, we can see here  
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/02ac76da-e05a-4be9-8d40-4aa5febb6525)
 
