@@ -1,4 +1,4 @@
-#  SKY130_D2_SK1 - Labs for CMOS inverter ngspice simulations
+#  SKY130_D3_SK1 - Labs for CMOS inverter ngspice simulations
 ##  Topics to be covered
 **--> IO placer revision**   
 **--> SPICE deck creation for CMOS**  
