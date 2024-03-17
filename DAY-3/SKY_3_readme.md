@@ -9,3 +9,22 @@
 **--> Lab exercise to implement poly resistor spacing to diff and tap**   
 **--> Lab challenge exercise to describe DRC error as geometrical construct** 
 **--> Lab challenge to find missing incorrect rules and fix them**
+
+
+### Spice deck for the CMOS Inverter
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/597e0aa5-335c-4429-bb65-fcb0931e0553)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ccd1a8e1-897e-4b1e-811d-9c1ac5a8251b)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/19be848a-276c-4b2d-8f63-5010d24db2eb)
+
+### characterization of CMOS inverter
+
+![Screenshot 2024-03-18 010002](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/eff93521-dfde-410a-bbb4-d8bf0881cdc2)
+
+![Screenshot 2024-03-18 013529](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/cdf88e88-8480-42a0-9a90-384014b1910f)
+
+![Screenshot 2024-03-18 011207](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2995edeb-0a73-41d8-9d94-ccf97f43bb31)
+
+
