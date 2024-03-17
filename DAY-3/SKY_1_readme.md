@@ -50,4 +50,18 @@ Switching Thrshold, Noise margin will define the Robustness of the CMOS. So that
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8d871374-ab1c-465e-b9ae-8db7ef674a2d)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b117f8d1-2329-4529-a37d-877bc0f9a1bc)
 
+## Static and dynamic simulation of CMOS inverter
 
+Here we are finding the Switching threshold values for different sizes PMOS & NMOS. This means we are trying to find the robustness of CMOS.
+
+Now we are applying the pulse to the CMOS and transition analysis , so that we will get the rise time and fall time.
+ To calculate the Rise time delay & Fall delay,
+![Screenshot 2024-03-17 173743](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/0a2ba30a-60f8-4cae-aee7-0451d712db13)
+
+For the fall delay we need to find out a point(50% of input voltage waveform) which a output falls.
+
+## Lab steps to git clone vsdstdcelldesign
+
+To clone the gitlink the command used here is,  
+/Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git  
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/20659235-0170-42cf-adb0-10535788ec92)
