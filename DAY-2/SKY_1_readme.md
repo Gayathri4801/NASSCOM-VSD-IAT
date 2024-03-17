@@ -181,6 +181,8 @@ Floorplan.def file
 
 ![Screenshot 2024-03-16 204405](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d76c0e47-339e-4f65-ad83-03570de944b7)
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b0f01fe9-1128-4e43-9939-4e26e9c83b9d)
+
 
 If we want change anything in floorplan, we need to make changes in design related config file.
 
