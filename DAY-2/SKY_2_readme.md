@@ -58,3 +58,20 @@ The answer is **Library.**  It contains,
 
   
 
+Our design is congestiion related placement, we are not considering the timing right now.  
+Placement in openlane occurs in two stages--> Global & detailed placement, There are different tools to do both.  
+Global placement is coarse placement.  
+**Coarse Placement** --> During coarse placement the tool determines the approximate locations of each cell according to the timing, congestion and multi voltage constraints. Placed cells don't placed on the placement grid, there might be overlap with each other. Here there is no leagaliztion happening.   
+Global placement main goal is reduce wirelength, In openlane we use HPWL (Half parameter wirelenth), reduction of HPWL is main goal in openlane.  
+**Leagalization** ---> The tool moves the cells to legal locations on the placement grid. Means standard cells are placed in standard cell rows, they should be abutted with each other.There should be no over laps. Leagalization happens in during detailed placement. Leagalization is more required from the Timing point of view.
+Placement run analysis   
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/310e255a-5b63-442d-a95b-daaf3149684d)
+
+Placement.def    
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/581f3804-9313-46a2-ac67-c1fc71998c10)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/3ac6842c-79f5-4343-baa3-14a844273501)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d6f2fccc-b46b-498b-86cc-4c3b9ae82af1)
+
+placement ensures that standard cells are properly placed on standard cells rows.
