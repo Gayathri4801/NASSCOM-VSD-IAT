@@ -13,6 +13,26 @@
 ## Create Active regions
 #### 1.Selecting the Substrate  
 
+1. select the p-type substrate.   
+2. create the buckets called as active regions.   
+   1. Deposit a Sio2 on top of p substrate.(Insulator)  
+   2. Deposit a Sio3 on top of p substrate.(Metal)     
+   3. Deposit the layer of photo resist.     
+   4. Deposit Mask-1 on top of the photo resist.   
+   5. Apply the UV light to remove unwanted portions. now we have only protected portions where we have the P-well & N-well.   
+   6. Now remove the Mask-1 on photo resist layer.   
+   7. Next remove the photo resist layer. Because Si03 will acts as very good protection layer itself. here now sio3 is protecting sio2 from the growing mode. Which is on top of the active regions.    
+   8. Place the whole thing in furnace means it is a place which works at very high temp upto 1000degrees. That helps grow the oxide in the other areas.   
+   9. Remove the Sio3 using hot phosphoric acid. Now we will have only p sub & growing Sio2.    
+   10. deposit layer of photo resist to define the areas which we have to protect.    
+   11. Next cover the region which we are not preparing the well region with mask-2.    
+   12. Expose the UV light  which we don't have mask-2, Photo resist will be removed.    
+   13. Next Boron which is p type material is diffused into p substrate using ion implantation. P-well will be created.    
+   14. Similarly do for creating for n-well.    
+   15. Again keep this in the high temp furnace to diffuse borob and phosphorous(n type) into p-sub to form clear wells.  This process is called Twintub process.    
+   
+
+
 **Substrate** --> On which we fabricate entire layout/design.   
 Here we are selecting the p-type silicon substrate with high resistivity, low doping level compared to well doping.   
 **Doping** --> It is a process of adding a impurity to a p-type substrate.  
@@ -36,5 +56,4 @@ Here we are selecting the p-type silicon substrate with high resistivity, low do
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/19fcefe5-2a12-4793-8512-9fcc961ecc02)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/f372a64a-97de-40ae-a450-d2ae678a1838)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/41a30873-cda2-4d7a-8d93-8f8cb5f91cb1)
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8e254762-c1a6-4acd-b915-43cb92ea8d17)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b8fe144e-b3a0-4c7f-b517-6c8a8fc476e4)
