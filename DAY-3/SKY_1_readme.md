@@ -37,7 +37,8 @@ The steps to follow for SPICE simulation
 9. We can see the plot for above inputs. In this the width of both PMOS &NMOS is same.  
 ![Screenshot 2024-03-17 165941](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d5dc9daf-6fad-4b5f-8d00-d19e2e774de8)
 
-If we keep the width of pmos is 2.5 times of NMOS, The whole procedure will be same, only the width of PMOS will vary, we can see in below graph,
+If we keep the width of pmos is 2.5 times of NMOS, The whole procedure will be same, only the width of PMOS will vary, we can see in below graph,  
+
 ![Screenshot 2024-03-17 170517](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a34d3ba2-a653-4bd5-a4d4-af9b9fb2efdd)
 
 ## Switching threshold Vm
@@ -46,7 +47,8 @@ The difference between both graphs are,
 1. The shapes are almost same. This tells CMOS is robust device.   
 Switching Thrshold, Noise margin will define the Robustness of the CMOS. So that it will prove CMOS is widely logic used to build any logic gates.
 
-1. Switching threshold , it is the point where the Vin = Vout. and also both (PMOS & NMOS) are in sat region, they will be turned on there is high chances to high leakage. There is a high possibility that the current flow directly from VDD to GND. In remaining areas one of the device turned off.so that there will not be direct path. Because of this conditions this is kind of short circuit device. 
+**Switching threshold** it is the point where the Vin = Vout. and also both (PMOS & NMOS) are in sat region, they will be turned on there is high chances to high leakage. There is a high possibility that the current flow directly from VDD to GND. In remaining areas one of the device turned off.so that there will not be direct path. Because of this conditions this is kind of short circuit device.
+   
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8d871374-ab1c-465e-b9ae-8db7ef674a2d)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b117f8d1-2329-4529-a37d-877bc0f9a1bc)
 
@@ -55,7 +57,8 @@ Switching Thrshold, Noise margin will define the Robustness of the CMOS. So that
 Here we are finding the Switching threshold values for different sizes PMOS & NMOS. This means we are trying to find the robustness of CMOS.
 
 Now we are applying the pulse to the CMOS and transition analysis , so that we will get the rise time and fall time.
- To calculate the Rise time delay & Fall delay,
+ To calculate the Rise time delay & Fall delay,  
+ 
 ![Screenshot 2024-03-17 173743](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/0a2ba30a-60f8-4cae-aee7-0451d712db13)
 
 For the fall delay we need to find out a point(50% of input voltage waveform) which a output falls.
@@ -63,5 +66,6 @@ For the fall delay we need to find out a point(50% of input voltage waveform) wh
 ## Lab steps to git clone vsdstdcelldesign
 
 To clone the gitlink the command used here is,  
-/Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git  
+/Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git   
+
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/20659235-0170-42cf-adb0-10535788ec92)
