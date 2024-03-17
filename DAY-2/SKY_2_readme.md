@@ -52,6 +52,9 @@ The answer is **Library.**  It contains,
 
 1.All cells information are available in the library.   
 2.Shapes & Size of cells.    
-3.Various flavours of the same cells.    
-4. Timing and delay information of the cells.    
+3.Timing and delay information of the cells.    
+4. Various flavours of the same cells it means we can see below,
+![Screenshot 2024-03-17 110531](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/80963aad-4f61-44f7-aa7f-edcaaad222c7)
+
+  
 
