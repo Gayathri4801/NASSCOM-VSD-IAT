@@ -25,6 +25,7 @@
 
 ![Screenshot 2024-03-18 013529](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/cdf88e88-8480-42a0-9a90-384014b1910f)
 
-![Screenshot 2024-03-18 011207](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2995edeb-0a73-41d8-9d94-ccf97f43bb31)
+![Screenshot 2024-03-18 011207](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b4764917-28c1-42e9-ab29-5f3c27a00af0)
+
 
 
