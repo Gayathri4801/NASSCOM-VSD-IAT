@@ -53,8 +53,14 @@ Check the description of that poly in the below website.
    https://skywater-pdk.readthedocs.io/en/main/     
 
 ![Screenshot 2024-03-18 200148](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/9f218105-8412-4f12-be33-646f6d5006ea)
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/55b88e34-c950-442a-89e5-aed0b75a8b99)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ee5ee82f-1b81-4d55-bd6f-4d484924431b)
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/55b88e34-c950-442a-89e5-aed0b75a8b99)
+![Screenshot 2024-03-18 213850](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/c436c4a5-0f6d-44ac-87c8-56d36b965a9a)
+Is all DRC is Fixed ? No  We fixed just poly to polyres spacing.  
+Here you can see again two metal have errors. Which is  diffusion error.
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b845966a-337b-4121-83a3-2f5904b0c6f3)
 
 
 
