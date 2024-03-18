@@ -28,4 +28,39 @@
 ![Screenshot 2024-03-18 011207](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b4764917-28c1-42e9-ab29-5f3c27a00af0)
 
 
+##  Lab introduction to Magic steps to load Sky130 tech-rules
+![Screenshot 2024-03-18 152247](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/52726029-5838-419f-86fa-2284177ea4d7)
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/81ab0e19-4805-4f92-8e8e-7fce56790d5c)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/e75aac88-632f-47b7-82e9-4c3ed5095ee8)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/bbb20f94-f6a4-4992-9771-326fc3134da8)
+![Screenshot 2024-03-18 191224](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d1c64d75-cd12-4212-88a7-6c03442735ee)
+![Screenshot 2024-03-18 152549](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b81d7902-c3e4-472a-896d-6deb85b14061)
+We can see here the metal layer informations--->      https://skywater-pdk.readthedocs.io/en/main/     
+
+![Screenshot 2024-03-18 193317](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d1bc7c98-7493-4f89-8a34-ba01c28be3c0)
+
+
+
+## Lab introduction to Magic steps to load Sky130 tech-rules
+## Lab exercise to fix poly.9 error in Sky130 tech-file.
+
+There are so many errors in the unfinished implementation of tech files.  
+Type load poly in console window. It will show available poly's.  Some incorrect poly are there.   
+Check the description of that poly in the below website.  
+   https://skywater-pdk.readthedocs.io/en/main/     
+
+![Screenshot 2024-03-18 200148](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/9f218105-8412-4f12-be33-646f6d5006ea)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/55b88e34-c950-442a-89e5-aed0b75a8b99)
+
+
+
+
+![Screenshot 2024-03-18 205441](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a8042f16-d12f-4ad0-8ee2-2152ebd9b39a)
+![Screenshot 2024-03-18 205555](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5a912a45-09f7-4622-95c4-6ceb3a240545)
+
+![Screenshot 2024-03-18 213127](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/47499a78-a21c-4ae3-8a45-f7569686f1df)
+
+![Screenshot 2024-03-18 213342](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1432df61-87f4-458d-b398-61b6726cff63)
