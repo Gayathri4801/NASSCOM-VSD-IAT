@@ -54,16 +54,30 @@ ext2spice cthresh 0 rthresh 0
 ext2spice
 
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/3911b87e-8846-447e-82b1-f6d89bdc45d4)
 
 
+## creating final SPICE deck using Sky130 tech   
 
+The default file of SPICE deck using Sky130 tech we can see below,
+
+![Screenshot 2024-03-17 233834](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/533e809c-242d-46f4-9c86-7e74fb521fe6)
+
+The final file of SPICE deck using Sky130 tech we can see below,
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/597e0aa5-335c-4429-bb65-fcb0931e0553)
+
+## Commands for ngspice simulation
+
+### Command to directly load spice file for simulation to ngspice
+ngspice sky130_inv.spice  
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ccd1a8e1-897e-4b1e-811d-9c1ac5a8251b)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/19be848a-276c-4b2d-8f63-5010d24db2eb)
 
-### characterization of CMOS inverter
+## Characterization of CMOS inverter
+
+**Here we will calculate Rise time delay, Fall time delay and Propogation delay for the CMOS inverter output.**  
 
 ![Screenshot 2024-03-18 010002](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/eff93521-dfde-410a-bbb4-d8bf0881cdc2)
 
@@ -73,6 +87,21 @@ ext2spice
 
 
 ##  Lab introduction to Magic steps to load Sky130 tech-rules
+
+Here, we will see more about Sky130 tech-rules mainly DRC. 
+First we have to download drc_tests.tgz file. Iused below command to get that zip file.  
+
+wget -P /tmp http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz && chmod +x /tmp/drc_tests.tgz   
+cd /tmp
+tar xfz drc_tests.tgz
+
+vsduser@vsdsquadron:~$ cd /tmp
+vsduser@vsdsquadron:/tmp$ cd drc_tests
+vsduser@vsdsquadron:/tmp/drc_tests$ ls -ltr
+vsduser@vsdsquadron:/tmp/drc_tests$ magic -d XR
+
+It will launch the magic tool , we can see below how the console window will appear,  
+
 ![Screenshot 2024-03-18 152247](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/52726029-5838-419f-86fa-2284177ea4d7)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/81ab0e19-4805-4f92-8e8e-7fce56790d5c)
@@ -87,12 +116,10 @@ We can see here the metal layer informations--->      https://skywater-pdk.readt
 ![Screenshot 2024-03-18 193317](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d1bc7c98-7493-4f89-8a34-ba01c28be3c0)
 
 
-
-## Lab introduction to Magic steps to load Sky130 tech-rules
 ## Lab exercise to fix poly.9 error in Sky130 tech-file.
 
 There are so many errors in the unfinished implementation of tech files.  
-Type load poly in console window. It will show available poly's.  Some incorrect poly are there.   
+Type load poly in console window. It will show available poly's.  Some incorrect poly's are there.   
 Check the description of that poly in the below website.  
    https://skywater-pdk.readthedocs.io/en/main/     
 
@@ -100,17 +127,15 @@ Check the description of that poly in the below website.
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ee5ee82f-1b81-4d55-bd6f-4d484924431b)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/55b88e34-c950-442a-89e5-aed0b75a8b99)
+![Screenshot 2024-03-18 213127](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/47499a78-a21c-4ae3-8a45-f7569686f1df)
+
+![Screenshot 2024-03-18 213342](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1432df61-87f4-458d-b398-61b6726cff63)
+
 ![Screenshot 2024-03-18 213850](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/c436c4a5-0f6d-44ac-87c8-56d36b965a9a)
 Is all DRC is Fixed ? No  We fixed just poly to polyres spacing.  
-Here you can see again two metal have errors. Which is  diffusion error.
+Here we can see again two metal have errors. Which is  diffusion error.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b845966a-337b-4121-83a3-2f5904b0c6f3)
 
 
 
-![Screenshot 2024-03-18 205441](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a8042f16-d12f-4ad0-8ee2-2152ebd9b39a)
-![Screenshot 2024-03-18 205555](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5a912a45-09f7-4622-95c4-6ceb3a240545)
-
-![Screenshot 2024-03-18 213127](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/47499a78-a21c-4ae3-8a45-f7569686f1df)
-
-![Screenshot 2024-03-18 213342](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1432df61-87f4-458d-b398-61b6726cff63)
