@@ -15,16 +15,16 @@
 
 Commands for spice extraction of the custom inverter layout in magic tool(tkcon window).
 
-**Check current directory in console window of magic**
+**Check current directory in console window of magic**   
 pwd
 
-# Extraction command to extract the design into sky130_inv.ext file.
+**Extraction command to extract the design into sky130_inv.ext file**
 extract all
 
-# Before converting ext to spice this command enable the parasitic extraction also
+**Before this ,We will use sky130_inv.ext file to create the spice file to be used with our ngspice tool.**
 ext2spice cthresh 0 rthresh 0
 
-# Converting to ext to spice
+** Converting to ext to spice**
 ext2spice
 
 
