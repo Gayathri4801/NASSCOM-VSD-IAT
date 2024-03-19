@@ -1,4 +1,4 @@
-#  SKY130_D3_SK3 - Sky130 Tech file labs
+#  SKY130_D4_SK1 - Sky130 Tech file labs
 ##  Topics to be covered
 **--> Lab steps to create final SPICE deck using Sky130 tech**   
 **--> Lab steps to characterize inverter using Sky130 model files**  
