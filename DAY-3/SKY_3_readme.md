@@ -17,16 +17,28 @@ To clone the gitlink the command used here is,
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/20659235-0170-42cf-adb0-10535788ec92)
 
+### The Exploration for Inverter layout in magic    
+
 By using this command we got the vsdstdcelldesign directory.  
 /Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git   
 
 Now change the directory to the vsdstdcelldesign using cd vsdstdcelldesign.
 Then the terminal will show the path ---> /Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign$.     
-Then check the list of contents using ls command.  
-## Spice extraction of CMOS inverter in magic tool.  
+Then check the list of contents using ls command. 
+using sky130A.tech file we can see the inverter layout in magic.   
 **Command to open custom inverter layout in magic**
 magic -T sky130A.tech sky130_inv.mag &
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ef0e6b12-00da-43a9-80d8-c0202163a7dc)
+
+We got the Inverter layout using gitclone. Here we can see How the mask will appear on either nmos or pmos. The parts of inverter and how that parts will be visible in magic console vindow.       
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5aaca5ed-06b6-447f-bd7d-90586fd5588c)
+![Screenshot 2024-03-17 231222](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1f71b934-5d87-4388-8b47-fa8fc84a6867)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/53edd419-ed7e-4806-b8e7-9b01db70f346)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ff310968-2d4f-429e-b1f8-ebf3d36b058a)
+
+
+## Spice extraction of CMOS inverter in magic tool.  
 ### Commands for spice extraction of the custom inverter layout in magic tool(tkcon window).
 
 **Check current directory in console window of magic**   
