@@ -13,6 +13,15 @@
 
 ## Spice extraction of CMOS inverter in magic tool.   
 
+By using this command we got the vsdstdcelldesign directory.  
+/Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git   
+
+Now change the directory to the vsdstdcelldesign using cd vsdstdcelldesign.
+Then the terminal will show the path ---> /Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign$.     
+Then check the list of contents using ls command.   
+**Command to open custom inverter layout in magic**
+magic -T sky130A.tech sky130_inv.mag &
+
 ### Commands for spice extraction of the custom inverter layout in magic tool(tkcon window).
 
 **Check current directory in console window of magic**   
