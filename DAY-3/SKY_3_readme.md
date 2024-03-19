@@ -19,14 +19,14 @@ To clone the gitlink the command used here is,
 
 ### The Exploration for Inverter layout in magic    
 
-By using this command we got the vsdstdcelldesign directory.  
-/Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git   
+By using this command we got the vsdstdcelldesign directory.    
+/Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git     
 
-Now change the directory to the vsdstdcelldesign using cd vsdstdcelldesign.
-Then the terminal will show the path ---> /Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign$.     
-Then check the list of contents using ls command. 
-using sky130A.tech file we can see the inverter layout in magic.   
-**Command to open custom inverter layout in magic**
+Now change the directory to the vsdstdcelldesign using cd vsdstdcelldesign.   
+Then the terminal will show the path ---> /Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign$.        
+Then check the list of contents using ls command.    
+using sky130A.tech file we can see the inverter layout in magic.      
+**Command to open custom inverter layout in magic**    
 magic -T sky130A.tech sky130_inv.mag &
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ef0e6b12-00da-43a9-80d8-c0202163a7dc)
