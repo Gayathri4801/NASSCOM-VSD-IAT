@@ -11,9 +11,9 @@
 **--> Lab challenge to find missing incorrect rules and fix them**
 
 
-### Spice deck for the CMOS Inverter
+## Spice extraction of CMOS inverter in magic tool.   
 
-Commands for spice extraction of the custom inverter layout in magic tool(tkcon window).
+### Commands for spice extraction of the custom inverter layout in magic tool(tkcon window).
 
 **Check current directory in console window of magic**   
 pwd
