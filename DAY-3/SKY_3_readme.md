@@ -44,7 +44,7 @@ We got the Inverter layout using gitclone. Here we can see How the mask will app
 **Check current directory in console window of magic**   
 pwd
 
-**Extraction command to extract the design into sky130_inv.ext file**   
+**Extraction command to extract the design mag file into sky130_inv.ext file**   
 extract all   
 
 **Before this ,We will use sky130_inv.ext file to create the spice file to be used with our ngspice tool.**   
