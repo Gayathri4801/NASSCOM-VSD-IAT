@@ -95,12 +95,7 @@ Here we are selecting the p-type silicon substrate with high resistivity, low do
 
 
 
-### The Exploration for Inverter layout in magic    
-We got the Inverter layout using gitclone. Here we can see How the mask will appear on either nmos or pmos. The parts of inverter and how that parts will be visible in magic console vindow.       
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5aaca5ed-06b6-447f-bd7d-90586fd5588c)
-![Screenshot 2024-03-17 231222](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1f71b934-5d87-4388-8b47-fa8fc84a6867)
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/53edd419-ed7e-4806-b8e7-9b01db70f346)
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ff310968-2d4f-429e-b1f8-ebf3d36b058a)
+
 
 
 
