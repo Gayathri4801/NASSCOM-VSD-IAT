@@ -86,6 +86,15 @@ Here we are selecting the p-type silicon substrate with high resistivity, low do
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a9f9bbc8-0484-45f0-928d-b95fd35bb7eb)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a8dbe546-2d92-4b35-9f55-6c1dba3ba1c4)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/9db1465f-1b2c-4ff3-bf8e-0d88ff9cab4b)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b4d7cef1-5c6e-4906-9203-4ec279b8e724)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/19fcefe5-2a12-4793-8512-9fcc961ecc02)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/f372a64a-97de-40ae-a450-d2ae678a1838)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/41a30873-cda2-4d7a-8d93-8f8cb5f91cb1)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b8fe144e-b3a0-4c7f-b517-6c8a8fc476e4)
+
+### The Inverter layout in magic
+We got the Inverter layout using gitclone. Here we can see How the mask will appear on either nmos or pmos. The parts of inverter and how that parts will be visible in magic console vindow.       
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5aaca5ed-06b6-447f-bd7d-90586fd5588c)
 ![Screenshot 2024-03-17 231222](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/1f71b934-5d87-4388-8b47-fa8fc84a6867)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/53edd419-ed7e-4806-b8e7-9b01db70f346)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ff310968-2d4f-429e-b1f8-ebf3d36b058a)
@@ -95,9 +104,5 @@ Here we are selecting the p-type silicon substrate with high resistivity, low do
 
 
 
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5aaca5ed-06b6-447f-bd7d-90586fd5588c)
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b4d7cef1-5c6e-4906-9203-4ec279b8e724)
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/19fcefe5-2a12-4793-8512-9fcc961ecc02)
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/f372a64a-97de-40ae-a450-d2ae678a1838)
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/41a30873-cda2-4d7a-8d93-8f8cb5f91cb1)
-![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b8fe144e-b3a0-4c7f-b517-6c8a8fc476e4)
+
+
