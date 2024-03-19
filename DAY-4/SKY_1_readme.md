@@ -50,3 +50,14 @@ For our reference the ports are in li1 metal layer.  How do we see them ?
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/dd35e70b-b4a0-4250-9ef9-242ed896ee6e)
 ![Screenshot 2024-03-19 234408](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/13ad3d07-4601-4a3c-9651-b9ea3e7e84a4)
 ![Screenshot 2024-03-20 000354](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/e94e6030-a52b-476c-bc74-d5b8fec4230f)
+
+Now layout is done as per the pnr tool.   
+Whenever we make the layout we just define the layers and contacts. we don't define the ports.  Ports doesn't mean anything to the magic.  Ports are required while we want to extract the lef file. When we extract the lef file these ports are defined as pins.   
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8471896d-bc93-4bb6-ac7f-a9f73286ed5e)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/f3504306-f199-4fdb-88a9-4808bede93f8)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d07615b0-8c24-48d6-9a8d-7e949378a1f3)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/96fe1767-d81d-44af-b2f7-43eaf88e2065)
+
+
+Now we can extract the lef file.  Before that give the cell custom name.  
