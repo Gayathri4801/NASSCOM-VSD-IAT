@@ -1,11 +1,12 @@
-#  SKY130_D4_SK1 - Sky130 Tech file labs
+#  SKY130_D4_SK1 -Timing modelling using delay tables
 ##  Topics to be covered
-**--> Lab steps to create final SPICE deck using Sky130 tech**   
-**--> Lab steps to characterize inverter using Sky130 model files**  
-**--> Lab introduction to Magic tool options and DRC rules**    
-**--> Lab introduction to Sky130 pdk's and steps to download labs**    
-**--> Lab introduction to Magic steps to load Sky130 tech-rules**    
-**--> Lab exercise to fix poly.9 error in Sky130 tech-file.**    
-**--> Lab exercise to implement poly resistor spacing to diff and tap**   
-**--> Lab challenge exercise to describe DRC error as geometrical construct** 
-**--> Lab challenge to find missing incorrect rules and fix them**
+**--> Lab steps to convert grid info to track info**   
+**--> Lab steps to convert magic layout to std cell LEF**  
+**--> Introduction to timing libs and steps to include new cell in synthesis**    
+**--> Introduction to delay tables**    
+**--> delay table usage part 1**    
+**--> delay table usage part 2**    
+**--> Lab steps to configure synthesis settings to fix slack and include vsdinv**   
+
+
+
