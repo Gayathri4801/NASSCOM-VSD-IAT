@@ -13,6 +13,24 @@
 
 ### Spice deck for the CMOS Inverter
 
+Commands for spice extraction of the custom inverter layout in magic tool(tkcon window).
+
+**Check current directory in console window of magic**
+pwd
+
+# Extraction command to extract the design into sky130_inv.ext file.
+extract all
+
+# Before converting ext to spice this command enable the parasitic extraction also
+ext2spice cthresh 0 rthresh 0
+
+# Converting to ext to spice
+ext2spice
+
+
+
+
+
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/597e0aa5-335c-4429-bb65-fcb0931e0553)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ccd1a8e1-897e-4b1e-811d-9c1ac5a8251b)
