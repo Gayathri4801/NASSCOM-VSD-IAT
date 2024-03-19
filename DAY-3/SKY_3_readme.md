@@ -10,15 +10,20 @@
 **--> Lab challenge exercise to describe DRC error as geometrical construct** 
 **--> Lab challenge to find missing incorrect rules and fix them**
 
+## Lab steps to git clone vsdstdcelldesign
 
-## Spice extraction of CMOS inverter in magic tool.   
+To clone the gitlink the command used here is,  
+/Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git   
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/20659235-0170-42cf-adb0-10535788ec92)
 
 By using this command we got the vsdstdcelldesign directory.  
 /Desktop/work/tools/openlane_working_dir/openlane$ git clone https://github.com/nickson-jose/vsdstdcelldesign.git   
 
 Now change the directory to the vsdstdcelldesign using cd vsdstdcelldesign.
 Then the terminal will show the path ---> /Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign$.     
-Then check the list of contents using ls command.   
+Then check the list of contents using ls command.  
+## Spice extraction of CMOS inverter in magic tool.  
 **Command to open custom inverter layout in magic**
 magic -T sky130A.tech sky130_inv.mag &
 
