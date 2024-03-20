@@ -61,3 +61,66 @@ Whenever we make the layout we just define the layers and contacts. we don't def
 
 
 Now we can extract the lef file.  Before that give the cell custom name.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Introduction to delay tables  
+
+**AND Gate**    
+Whenever the enable is 1 then only clk will propogate to the output.   
+
+**OR Gate**   
+Whenever the enable is 0 then only clk will propogate to the output.   When the enable is 1 the clk won't propogate so there won't be any short circuit power consumption and switching power consumption that will be consumed by clock tree. During that period of time we can lot of dynamic power consumption.  This is the main advantage by using and & or gates in the clock tree.  
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/13663f3d-3d9d-4d55-91ea-1ef98bd429b3)
+
+How do we use this in Clock tree?    
+Here, we made some observations using this small clock tree.   
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/191fca59-a5ee-4ece-925a-bbb2065aff3e)
+Now we will see what will happen if we don't use/ follow those observations.  Why we need this type of observations?  
+
+Some important observations from the above picture:-    
+The cap of the load at the output node of each and every buffer of complete clock tree in the chip/design is varying. We can't maintain constant.   
+The output of one level is connected to input to the nextlevel.So if o/p of cap changes then the transition time also changes.   
+We have varying input transition at the input of the buffer, We have varying output load at the out of any buffer.  
+
+What is clock tree synthesis?  
+CTS is used to connect the External Clock to the all internal clock pins of a flipflop. And also inserting a buffer or inverters to all the clock paths in a design to balance the skew.   
+So the clock should reach all the sequential circuits at the same time to maintain the skew.  Because of above observations(transition , capacitance) we can see lot of delays & timing variations.   
+How we will capture that delays?  
+Our engineers found something called as delay tables. How the delay table is prepared?    
+We will take one buffer out from the complete circuit, For example if the input transition is varied from 10ps to 100ps and if the output capacitance is varied from 10Ff to 100Ff. With this parameters the particular cell delay will be calculated in a tabular format.  Eventually this delay table became the timing model of this particular buffer.  For every cell it can be buffer/logic gates, will have the seperate delay table.  Every cell will characterize by particular change.  
+
+![Screenshot 2024-03-20 183852](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/7bbb2030-ae71-420c-b9b2-3ed599bf98a5)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2b67129b-648b-4ca6-9749-39c70281c6c9)
+
+The dalay values will vary for every cell and (same for same level of cells) because it is dependent on PMOS & NMOS size(W/Lration)(Buffer will made up of PMOS & NMOS).   If we change the area or increase the area the resistance will reduce, then the delay also reduces. 
+![Screenshot 2024-03-20 190554](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/f27152f4-a55c-47d2-aa57-d883e3bc4f60)
+
+In the above image we delay value is not available. We will get that value using equations used to make this table.   
+Now We will calculate the latency?  
+**Latency** --> The time taken to reach the clock from external clock/main clock to the internal fliflop clock pins.  
+Here we will calculate each cell delay in the path and add them to get the latency.  
+![Screenshot 2024-03-20 192949](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ef428212-e644-40ee-af66-528a9e2151b0)
+
+Here at level2 the delay of both buffers are same why because the transition time and load capacitance and size of the buffer are same.  
+And the skew is 0.  
+Here we can observe that if we don't maintain the observations mentioned in the image,  we can't get skew as 0. If skew is negative/ non zero we will face timing violations because the transition and capacitance of the cell vary so that the delay of the cell may vary, then the skew also will vary.  If the size of the cell changes at the same level and the input transition and capacitance is same for the cells which is at the same level, while calculating the delay we have to check the delay at two different delay tables so we will get different delays. Because of this again we will face timing violations . Here we are calculating only two buffers the delay changes don't make sense. If we imagine millions of cells in the design, If we don't maintain this rules when creating Clock tree we will face so many Timing related issues.  
+**Skew** -->Clock skew refers to the variation in timing when a clock signal reaches different parts of a circuit.    
+
+
