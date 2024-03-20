@@ -159,4 +159,17 @@ And the skew is 0.
 Here we can observe that if we don't maintain the observations mentioned in the image,  we can't get skew as 0. If skew is negative/ non zero we will face timing violations because the transition and capacitance of the cell vary so that the delay of the cell may vary, then the skew also will vary.  If the size of the cell changes at the same level and the input transition and capacitance is same for the cells which is at the same level, while calculating the delay we have to check the delay at two different delay tables so we will get different delays. Because of this again we will face timing violations . Here we are calculating only two buffers the delay changes don't make sense. If we imagine millions of cells in the design, If we don't maintain this rules when creating Clock tree we will face so many Timing related issues.  
 **Skew** -->Clock skew refers to the variation in timing when a clock signal reaches different parts of a circuit.    
 
+### Lab steps to configure synthesis settings to fix slack and include vsdinv
+
+1. Go to README.md. to see any stratergies to overcome timing violations.  
+  **-->wns Worst neagative slack
+  -->tns total negative slack.**    
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2c26020c-572d-4f41-afea-4e6601ad7a05)
+
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ba07104a-c76c-47a4-9ed3-d3233c7f724b)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/e32580fb-bd65-4752-8b07-d1d00fd41176)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/bee17e5b-cbdd-4f31-b061-d9af13b375aa)
+![Screenshot 2024-03-20 232726](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2c65eef4-9b6f-4cc0-82e3-873f685c7000)
 
