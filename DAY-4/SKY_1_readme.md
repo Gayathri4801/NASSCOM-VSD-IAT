@@ -9,6 +9,7 @@
 **--> Lab steps to configure synthesis settings to fix slack and include vsdinv**   
 
 
+### Lab steps to convert grid info to track info
 We know mag file contains all information includes power & GND connections , metal connections to say in one word everything it contains to make inverter.     
 OpenLANE tool for only place & route. How we are connecting ngspice and how we are doing this all things.    
 place and route don't require this much info whatever the mag file contains. Only require is power and ground rails and input and output info no need logic part.   
@@ -61,20 +62,54 @@ Whenever we make the layout we just define the layers and contacts. we don't def
 
 
 Now we can extract the lef file.  Before that give the cell custom name.  
+Next save the design into some another file. If we face any permission issue. use this command to get permission.      
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane$ chmod -R 777 vsdstdcelldesign    
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/c8272f33-7cb2-4ac4-b2ed-f90ae1ba0a9b)
+
+We will see the file in vsdstdcelldesign folder.  
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/08f36d62-b294-4279-a38c-1d8275b57068)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/9a2c2c14-4fa0-41a2-b539-310ab47ce8af)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a8079636-815b-4389-8b83-a374eea8a2b4)
+
+In this we can see the changes, which we did in magic, 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/326e05a0-ddeb-4d7b-be1f-1e4109f96393)
+
+Now the lef file is ready, Now we have to plug this cell into picorv32a, 
+We have to move this lef into source files.  
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5c34a6fa-f98b-489c-8ae7-15a162310e5e)
+
+Now the lef file has moved into picorv32a design files.  
+
+Now the idea is, we have to include our custom cell into openlane flow.  The first stage in the openlane is synthesis.  In synthesis stage ABC step maps the netlist to the cells in the library. Now we need to have alibrary which has our custom cell definition for synthesis.  
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/de562a1b-ee2c-4172-a95f-e69a8767b7e0)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/62ab5f23-725a-4899-aeff-47d714d8ccc1)
+
+The above library file contains every cell information.  
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/e30d45cd-8fc9-45a2-98da-270a77df56ea)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/0c45af6d-8f75-47da-8ab3-be2345fe8ffb)
+
+These library files are giving three different conditions slow slow, Fast Fast, Typical Typical.  This Typical file also we have to move into src files.  
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/a7a72d20-f404-4293-8c6e-32960f1d4886)
+
+Before going to run synthesis, we have modify config file.  
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/67c2b0ac-9a15-450a-b4d9-4413227c1464)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5366f413-4ba1-41b2-8993-4166b3aa1187)
+
+It will clear previous run file, and it is taking new,  
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/7ceddb7a-ceb8-46db-bc28-a9f80590d6c7)
 
 
+Now, we have to see whether the synthesis part maps our custom Inverter cell into this flow or not. 
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d1229988-cfa0-4281-b4d9-0d1e417c381b)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/56540899-1538-4da6-a2d6-8b7175b49398)
 
-
-
-
-
-
-
-
-
-
-
+The synthesis is successful.
 
 
 
