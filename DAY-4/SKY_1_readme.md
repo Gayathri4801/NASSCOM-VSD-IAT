@@ -16,7 +16,7 @@ place and route don't require this much info whatever the mag file contains. Onl
 Here the lef file comes into picture. That means lef file contains all stadard cell physical information.      
 
 Till now we worked with standard cells that came along with the openlane. Now our goal is to extract this lef file and plugged into picorv32a design. How it will work?   
-
+### Lab steps to convert magic layout to std cell LEF
 Till now we did experiment on sky130a_inv.mag file. Now we have to extract lef file.     
 Before we can check some info in this standard cell  (Inverter).  
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8697dde7-7ff4-4eb5-8236-d394cc15a13f)
@@ -60,6 +60,7 @@ Whenever we make the layout we just define the layers and contacts. we don't def
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d07615b0-8c24-48d6-9a8d-7e949378a1f3)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/96fe1767-d81d-44af-b2f7-43eaf88e2065)
 
+#### Introduction to timing libs and steps to include new cell in synthesis
 
 Now we can extract the lef file.  Before that give the cell custom name.  
 Next save the design into some another file. If we face any permission issue. use this command to get permission.      
