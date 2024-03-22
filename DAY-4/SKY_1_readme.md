@@ -173,3 +173,24 @@ Here we can observe that if we don't maintain the observations mentioned in the 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/bee17e5b-cbdd-4f31-b061-d9af13b375aa)
 ![Screenshot 2024-03-20 232726](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2c65eef4-9b6f-4cc0-82e3-873f685c7000)
 
+
+After set the SYNTH_STRATEGY & SYNTH_SIZING As we expected the area increased.  
+The steps I followed is 
+1. Go to openlane directory type docker.
+2. pwd   
+3. ls-ltr
+4. ./flow.tcl -interactive
+5. package require openlane 0.9
+6. prep -design picorv32a -tag 22-03_17-07 -overwrite    
+7. set lefs [glob &::env(DESIGN_DRV)/src/*.lef]    
+8. add_lefs -src &lefs
+9. run_synthesis    ---> Here I got some tns & wns values and some area. By using area and sizing strategy i increased area and decreased the dealy (tns &wns values)    
+10. prep -design picorv32a -tag 22-03_17-07 -overwrite
+11. set lefs [glob &::env(DESIGN_DRV)/src/*.lef]
+12. add_lefs -src &lefs
+13. set ::env(SYNTH_STRATEGY) "DELAY 1"
+14. set ::env(SYNTH_SIZING)
+15. run_synthesis   
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/816482a7-c415-4528-a9d7-965c7e3b3d68)
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/22d3211c-3544-4d70-a54b-1bff545d2ecd)
