@@ -26,3 +26,8 @@ This below picture says it will operate at 1Ghz frequency.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/3a41ded1-cf58-477a-901c-d5945f00a1b7)
 
+## Introduction to clock jitter and uncertainity   
+
+Clock is being prepared by phase-locked loop (PLL).   These circuits might not provide exact clock source. some variations will be there.  Ideally the clock change at exactly particular time period. But because of some in built variation in clock circuit it will change before or after.   
+**Jitter** --> Clock jitter refers to the variation in the timing of a clock signal's pulses.   
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/64f82c17-5fe0-4141-a663-e85935eb57b1)
