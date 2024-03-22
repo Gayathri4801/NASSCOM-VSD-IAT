@@ -192,5 +192,7 @@ The steps I followed is
 14. set ::env(SYNTH_SIZING)
 15. run_synthesis   
 
+**Area increased to --> Chip area for module '\picorv32a': 209181.872000    
+tns &wns became 0**   
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/816482a7-c415-4528-a9d7-965c7e3b3d68)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/22d3211c-3544-4d70-a54b-1bff545d2ecd)
