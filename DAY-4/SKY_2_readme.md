@@ -37,3 +37,18 @@ Clock is being prepared by phase-locked loop (PLL).   These circuits might not p
 Here teta = Combinational delay. It should be less than 0.9ns.   
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/477c754a-665c-4761-a3a0-161f94ba1c67)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/dadbb188-c03a-4e3e-9901-378d2019e0e3)
+
+
+
+## Lab steps to configure openSTA for post-synth timing analysis  
+
+Now, we have to ensure the slack is reduced.   
+In the industry tools if we face any timing violation we will carryout the analysis in the seperate tool for synopsys it is primetime.  
+In this case for pnr --> openlane    
+For timing analysis --->openSTA   
+
+Create the new file using this command vim pre_sta.conf     
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8b3beeda-12b9-4a77-842f-8eb1c93193d6)
+
+
+
