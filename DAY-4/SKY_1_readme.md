@@ -182,12 +182,12 @@ The steps I followed is
 4. ./flow.tcl -interactive
 5. package require openlane 0.9
 6. prep -design picorv32a -tag 22-03_17-07 -overwrite    
-7. set lefs [glob &::env(DESIGN_DRV)/src/*.lef]    
-8. add_lefs -src &lefs
+7. set lefs [glob $::env(DESIGN_DIR)/src/*.lef]    
+8. add_lefs -src $lefs
 9. run_synthesis    ---> Here I got some tns & wns values and some area. By using area and sizing strategy i increased area and decreased the dealy (tns &wns values)    
 10. prep -design picorv32a -tag 22-03_17-07 -overwrite
-11. set lefs [glob &::env(DESIGN_DRV)/src/*.lef]
-12. add_lefs -src &lefs
+11. set lefs [glob $::env(DESIGN_DRV)/src/*.lef]
+12. add_lefs -src $lefs
 13. set ::env(SYNTH_STRATEGY) "DELAY 1"
 14. set ::env(SYNTH_SIZING)
 15. run_synthesis   
