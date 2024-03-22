@@ -47,8 +47,23 @@ In the industry tools if we face any timing violation we will carryout the analy
 In this case for pnr --> openlane    
 For timing analysis --->openSTA   
 
+to check verilog after synthesis.   
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/19dccfd9-a4cc-4d84-aff7-2c2cbf63edd1)
+
 Create the new file using this command vim pre_sta.conf     
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8b3beeda-12b9-4a77-842f-8eb1c93193d6)
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/dfcb68cc-eb62-4ad0-ad5a-f86712a6c873)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/9723a543-0f84-4fe5-8988-b5f7ac6207e7)
+
+What are all settings in base.sdc , I foolwed the same in my_base_sdc   
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/98a1921c-aae2-44f5-ab4a-916d442cbc99)
+
+The main file used for openSTA anlysis is pre_sta.conf   
+This is the configuration file on which we will do pre-layout analysis.  
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d63c2f20-789d-4164-9537-34488ed2891b)
 
 
