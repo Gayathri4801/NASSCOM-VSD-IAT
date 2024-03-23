@@ -11,10 +11,12 @@ Via connection won't happen  when lower layers routing taken place. Only it will
 
 **pre-processed route guides**
 
-1. M1 preferred direction is vertical. Whenever the tool determines/encountered the non preferred direction, then the tool divides into unit 2. width.This is called as splitting.   
+1. M1 preferred direction is vertical. Whenever the tool determines/encountered the non preferred direction, then the tool divides into unit width.
+2. This is called as splitting.   
 3. Merging (reducing the grids).   
 4. Bridging :-Edges which are parallel to the preferred routing direction are bridged with the additional upper layer.
-5. Non preffered routing guides has now been converted into Preffered routing guides of metal 2.  Metal 1 has been converted into metal 2.  
+5. Non preffered routing guides has now been converted into Preffered routing guides of metal 2.  Metal 1 has been converted into metal
+     
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/5944079e-e9a8-43c9-b5ca-24822cb8b749)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2b17c150-d562-40b4-b4e6-397ed5878ab0)
