@@ -6,6 +6,7 @@
 **--> Routing topology algorithm and final files list post-route**
 
 **TritonRoute is a engine/opensource tool which is used for detailed routing**  
+
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8ae3eb9b-cd03-4b2a-aa02-42e54fa8f143)
 Via connection won't happen  when lower layers routing taken place. Only it will happen when upper layers routing taken place.   
 
