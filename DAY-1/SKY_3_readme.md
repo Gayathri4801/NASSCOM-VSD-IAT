@@ -1,10 +1,12 @@
 # SKY130_D1_SK3 - Get familiar to open-source EDA tools
 ## Topics to be covered**
-** --> OpenLANE Directory structure in detail.**
-**  -->Design preparation step.**
-**  -->Review files after design prep and run synthesis.**
-**  -->OpenLANE project Git link description.**
-** -->Steps to characterize synthesis results.**
+**--> OpenLANE Directory structure in detail.**  
+**-->Design preparation step.**  
+**-->Review files after design prep and run synthesis.**  
+**-->OpenLANE project Git link description.**  
+**-->Steps to characterize synthesis results.**  
+
+## OpenLANE Directory structure in detail  
 
 The tool which we will be working is OpenLANE,  OpenLane is a not a tool, it is basically flow  which compraises of many open-source EDA tools.
 OpenLANE is used to produce RTL2GDS.
