@@ -32,26 +32,25 @@ Lee algorithm is one possible solution for Maze routing problems. This algorithm
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/83a376d9-2894-44a5-aae4-824818f4197e)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/c4ceaacd-fbc5-47e8-a32f-6ecd840e926a)
 
-7. Now we have to identity which one we should picking up.
-   In 1st way we can see 2 bends to reach source to target. In 2nd way only 1 bend is there. Any route with single bend is prefferable in case of algorithm.
-This Maze algorith is used for global routing.
-For 1 path it is easy. when we are making millions connections then this algorithm will consume more time.Because it has to store all paths information.     
+7. Now we have to identify which one we should picking up.   
+   In 1st way we can see 2 bends to reach source to target. In 2nd way only 1 bend is there. Any route with single bend is prefferable in case of algorithm.  
+This Maze algorith is used for global routing.   
+For 1 path it is easy. when we are making millions connections then this algorithm will consume more time.Because it has to store all paths information.        
  
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/6834f714-bb42-4d2b-8067-4fd635395152)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b709132f-2e6d-4d89-8a5d-1c7aa5a517bf)
+ 
+Green paths are routing paths.   
 
-Green paths are routing paths. 
 
-
-## Design Rule Checks (DRC)   
+## Design Rule Checks (DRC)     
 
 While we are routing it's not about only connecting two points. we need to take care certain rules that we are follow while routing. 
-These rules say that when you are trying to build two wire there should min spacing, distance between that two wires.  
+These rules say that when you are trying to build two wire there should min spacing, distance between that two wires.    
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/66bcf2b3-8761-4b29-a6f6-941db2403773)
 
-3 basic Rules are,  
-Width, Spacing, Pitch.   
+3 basic Rules are -->  Width, Spacing, Pitch.    
 
 Width of wire, There are some techniques to build the wires. Those techniques reffered as photolithography.  Photolithography is used light to build these wires. Light has got certain minimum wavelength.  with that min wavelength it can draw certain min width of the wire.  Considering that we come up with some rules, say that the optical wavelength of the light can build a wire with certain width.  wee can't go below that width.    
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/3b9c7e6b-ca08-4c49-a857-d95268fb930b)
@@ -68,4 +67,19 @@ Some violations we can see below, These things can lead to functionality failure
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8f4a46c7-f9cc-4406-b46b-591cd4753045)
 
-How do we solve signal short?  
+How do we solve signal short? 
+Placing the wires on seperate layers.  While we using this technique to solve the signal short problem , we will face few more DRC issues.  
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2e692451-63f8-4c62-9795-8fbe69d177a8)
+
+1. **Via Width** (Via--> The dip of a whole between two or more metal layers or used to connect different layers. It is like a screw.)
+   The DRC rule specify the via width should be minimum. It can be more, but It can't be less.   
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ea3e4658-d9aa-4189-94aa-773dfeaf6a30)
+
+It is more about printing how do we print what we see in layout. 
+
+2. **Via spacing** :-
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/628928a8-d7e5-4565-9010-a1e0ed91d088)
+
+**Parasitic Extraction**  
+The wires used for routing are physical wires. The reistance and capacitance of these wires needs to extracted and to be used for some purpose.  
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/797794b9-9ae0-485c-8aa9-522fa16425dc)
