@@ -26,12 +26,13 @@ We saw how does the repeaters reproduce the signal. here also same thing but onl
 ## 
 
 Clock nets are considered to be the critical nets in the design. Because we have build the clock tree in such a fashion that we have 0 skew.  But accidentaly if cross talk happens in these clcok lines , then whatever we bulid all gets wated/detoriated.  
-By sheilding we will protect these nets from the outside world.Sheilding is one of the technique to protect the signals from crosstalk.   
+By sheilding we will protect these nets from the outside world.Sheilding is one of the technique to protect the signals from crosstalk.  
+The idea is creating sheiding only for critical nets which are mainly clock nets. If we sheilded all nets in the design then that will increase the area.   
 **CROSSTALK** Switching of one signal in one net can interfere with neighboring net that leads to the cross coupling capacitance known as crosstalk.  
 The net which is effecting the other net is called the Aggressor.    
 The net which is effecting by the other net is called the Victim.     
 To avoid that cross coupling capacitance and interference between two signal we will do sheilding for every signal.   
-Because of this cross coupling capacitance, there will be two problems glitch and delta delay.   
+Because of this cross coupling capacitance, there will be two problems glitch and delta delay. 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/0c454362-ed41-4640-917d-9f1ee41c06be)
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/4e458a56-3c7f-4d4e-889b-6f8f472e8429)
