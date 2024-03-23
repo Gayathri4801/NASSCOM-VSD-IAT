@@ -1,4 +1,7 @@
-## Routing and Design rule check (DRC)
+# Routing and Design rule check (DRC)  
+##  Topics to be covered
+**--> Maze Routing Algorithm**   
+**--> Design rule check (DRC)**
 
 Routing means we need to route two points and finiding best possible connection & shortest path & min twist and turns(there should not be many zig zag lines) between two points.one point is source and one point is destination/target.      
 Routing is the process of creating physical connections based on logical connectivity in the netlist file.   
