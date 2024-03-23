@@ -1,4 +1,4 @@
-# Power Distribution Network and Routing  
+# SKY130_D5_SKY2 - Power Distribution Network and Routing  
 ##  Topics to be covered
 **--> Lab steps to build Power Distribution Network**   
 **--> Lab steps from power straps to std cell power**    
