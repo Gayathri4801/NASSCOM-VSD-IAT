@@ -83,7 +83,7 @@ The detailed routing will ensure that the routing actually happens in these rout
 2. ls -ltr   
 3. cd spef_extraction      
 4. ls -ltr     (Python files will be there. To generate the spef we need to include lef & def files using the below command.)     
-5. Desktop/work/tools/spef_extraction python3 main.py /home/vsduser/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/22-03_17-05/tmp/merged.lef  /home/vsduser/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/22-03_17 05/tmp/routing/picorv32a.def     --> this will create the spef file.    
+5. Desktop/work/tools/spef_extraction python3 main.py /home/vsduser/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/22-03_17-07/tmp/merged.lef  /home/vsduser/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/22-03_17 05/tmp/routing/picorv32a.def     --> this will create the spef file.    
 6. spef will be saved in the same location as def file.       
 /home/vsduser/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/22-03_17-05/tmp/routing    
 7. The new def file will create in the above location picorv32a_new.def   
