@@ -8,7 +8,7 @@
 
 
 
-### Setup timing analysis using real clocks  
+## Setup timing analysis using real clocks  
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ea6a8883-470a-4934-b9cb-9b5694d4d8fa)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d9e04865-f8d3-4969-9b0d-7b169ed41ffc)
