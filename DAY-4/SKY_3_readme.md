@@ -1,4 +1,4 @@
-#  SKY130_D4_SK3 ---> Clock tree synthesis TritoncTS and signal Integrity
+#  SKY130_D4_SK3 - Clock tree synthesis TritoncTS and signal Integrity
 ##  Topics to be covered
 **--> Clock tree routing and buffering using H-Tree alogorithm**   
 **--> Crosstalk and clock net sheilding**  
