@@ -72,6 +72,7 @@ ls
 We can see fastroute.guide file which is having all rectangles/routing guides info.  
 If we open that using less fastroute.guide   
 The syntax is lowerx lowery upperx uppery matalname
+
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/08b208c7-6f25-48e2-b149-f0d32fdef511)
 
 The detailed routing will ensure that the routing actually happens in these routing guides.   
