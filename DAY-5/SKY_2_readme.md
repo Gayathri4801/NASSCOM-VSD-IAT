@@ -15,4 +15,5 @@ Detail route should ensure that it needs to realize the segments and via in acco
 We can see the 4 dots in the above image, these 4 dots are called as pins of a standard cells.  
 In detailed routing stage we will make the actual connections using physical wires.  
 
-![Uploading image.png…]()
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/14940b12-4e98-426e-9e9d-40d4419944ea)
+
