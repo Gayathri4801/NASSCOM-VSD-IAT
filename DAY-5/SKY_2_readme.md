@@ -4,19 +4,26 @@
 **--> Lab steps from power straps to std cell power**    
 **--> Basics of Global and detail routing and configure TritonRoute**
 
+
+
+## Lab steps to build Power Distribution Network*
+
 1. Go to openlane directory
-2. docker   
-3. pwd
-4. ls -ltr
-5. ./flow.tcl -interactive
-6. package require openlane 0.9
-7. prep -design picorv32a -tag 22-03_17-07
+2. docker     
+3. pwd   
+4. ls -ltr   
+5. ./flow.tcl -interactive    
+6. % package require openlane 0.9    
+7. % prep -design picorv32a -tag 22-03_17-07  ( If we want the configuration from the last run without overwriting)    
+8. % echo ::$env(CURRENT_DEF)   it will give the last stage happened.  
+     /openLANE_flow/deisgns/picorv32a/runs/22-03_17-07/results/cts/picorv32a_cts.def 
+9. % gen_pdn    It will generate the Power Distribution Network. It will read the merged.lef & cts.def --> Then it will create the grids and straps for the power and Ground.   
+
+## Lab steps from power straps to std cell power  
 
 
 
-
-
-
+## Basics of Global and detail routing and configure TritonRoute  
 
 In VLSI flow The routing phase very critical that can be using opensource tools or commercial tools.  
 The Routing phase is divided into 2 types.  
