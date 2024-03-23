@@ -3,8 +3,8 @@
 **--> Maze Routing Algorithm**   
 **--> Design rule check (DRC)**
 
-Routing means we need to route two points and finiding best possible connection & shortest path & min twist and turns(there should not be many zig zag lines) between two points.one point is source and one point is destination/target.      
-Routing is the process of creating physical connections based on logical connectivity in the netlist file.   
+**Routing means we need to route two points and finiding best possible connection & shortest path & min twist and turns(there should not be many zig zag lines) between two points.one point is source and one point is destination/target.      
+Routing is the process of creating physical connections based on logical connectivity in the netlist file.**   
 There are various algorithms being developed for routing.  
 One of the algorith follwed by people is Maze algorithm and lee's algorithm.   
 The connections made between source and target should be mostly L shape lines. There should be very few zig zag lines.   
