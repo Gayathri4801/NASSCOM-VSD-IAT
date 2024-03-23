@@ -10,7 +10,7 @@
 4. ls -ltr
 5. ./flow.tcl -interactive
 6. package require openlane 0.9
-7. prep -design picorv32a -tag 
+7. prep -design picorv32a -tag 22-03_17-07
 
 
 
