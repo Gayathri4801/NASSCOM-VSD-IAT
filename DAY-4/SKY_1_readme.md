@@ -9,21 +9,21 @@
 **--> Lab steps to configure synthesis settings to fix slack and include vsdinv**   
 
 
-### Lab steps to convert grid info to track info
+## Lab steps to convert grid info to track info
 We know mag file contains all information includes power & GND connections , metal connections to say in one word everything it contains to make inverter.     
 OpenLANE tool for only place & route. How we are connecting ngspice and how we are doing this all things.    
 place and route don't require this much info whatever the mag file contains. Only require is power and ground rails and input and output info no need logic part.   
 Here the lef file comes into picture. That means lef file contains all stadard cell physical information.      
 
 Till now we worked with standard cells that came along with the openlane. Now our goal is to extract this lef file and plugged into picorv32a design. How it will work?   
-### Lab steps to convert magic layout to std cell LEF
+## Lab steps to convert magic layout to std cell LEF
 Till now we did experiment on sky130a_inv.mag file. Now we have to extract lef file.     
 Before we can check some info in this standard cell  (Inverter).  
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/8697dde7-7ff4-4eb5-8236-d394cc15a13f)
 
 From pnr we need to follow some certain guidelines to place standard cells.  
-#### 1. The input and the output must line on the instersection of the vertival and the horigontal tracks.   
-#### 2. The width of the standard cells should be odd multiples of the track pitch. Height should be odd multiples of the tracks vertical pitch.    
+### 1. The input and the output must line on the instersection of the vertival and the horigontal tracks.   
+### 2. The width of the standard cells should be odd multiples of the track pitch. Height should be odd multiples of the tracks vertical pitch.    
 
 **Tracks** These are using in the routing stage. These are nothing but metal layers.    
 Go to this path We will get tracks info.     
@@ -60,7 +60,7 @@ Whenever we make the layout we just define the layers and contacts. we don't def
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d07615b0-8c24-48d6-9a8d-7e949378a1f3)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/96fe1767-d81d-44af-b2f7-43eaf88e2065)
 
-#### Introduction to timing libs and steps to include new cell in synthesis
+## Introduction to timing libs and steps to include new cell in synthesis
 
 Now we can extract the lef file.  Before that give the cell custom name.  
 Next save the design into some another file. If we face any permission issue. use this command to get permission.      
@@ -159,7 +159,7 @@ And the skew is 0.
 Here we can observe that if we don't maintain the observations mentioned in the image,  we can't get skew as 0. If skew is negative/ non zero we will face timing violations because the transition and capacitance of the cell vary so that the delay of the cell may vary, then the skew also will vary.  If the size of the cell changes at the same level and the input transition and capacitance is same for the cells which is at the same level, while calculating the delay we have to check the delay at two different delay tables so we will get different delays. Because of this again we will face timing violations . Here we are calculating only two buffers the delay changes don't make sense. If we imagine millions of cells in the design, If we don't maintain this rules when creating Clock tree we will face so many Timing related issues.  
 **Skew** -->Clock skew refers to the variation in timing when a clock signal reaches different parts of a circuit.    
 
-### Lab steps to configure synthesis settings to fix slack and include vsdinv
+## Lab steps to configure synthesis settings to fix slack and include vsdinv
 
 1. Go to README.md. to see any stratergies to overcome timing violations.  
   **-->wns Worst neagative slack
