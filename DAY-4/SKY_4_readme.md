@@ -1,4 +1,15 @@
-## Setup timing analysis with real clocks.  
+# SKY130_D4_SK4 Setup timing analysis with real clocks using openSTA.  
+##  Topics to be covered
+**--> Setup timing analysis using real clocks**   
+**--> Hold timing analysis using real clocks**  
+**--> Lab steps to analyze timing with real clocks using OpenSTA**    
+**--> Lab steps to execute OpenSTA with right timing libraries and CTS assignments**
+**--> Lab steps to observe impacrt of bigger CTS buffers on Setup and Hold timing**
+
+
+
+### Setup timing analysis using real clocks  
+
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/ea6a8883-470a-4934-b9cb-9b5694d4d8fa)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d9e04865-f8d3-4969-9b0d-7b169ed41ffc)
 delta 1 is launch flop clock Network delay. (delta 1 = 1+2).   Time required for the clk signal to reach the clock starting point to launch clock path end point.  
@@ -12,7 +23,8 @@ Slack = Data required time - Data arrival time
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/3270617f-986e-499c-bfac-95a19857d179)
 
 
-## Hold Analysis    
+## Hold timing analysis using real clocks  
+
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/b4377e23-e14a-4497-aa21-af812dad330e)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/61ff82aa-e15c-4c78-b9c6-9f0d05efdb0a)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/68f4ee1b-3460-4d2c-9a0a-b20caeb9d96d)
