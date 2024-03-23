@@ -1,4 +1,4 @@
-# SKY130_D4_SK4 ---> Setup timing analysis with real clocks using openSTA.  
+# SKY130_D4_SK4 - Setup timing analysis with real clocks using openSTA.  
 ##  Topics to be covered
 **--> Setup timing analysis using real clocks**   
 **--> Hold timing analysis using real clocks**  
