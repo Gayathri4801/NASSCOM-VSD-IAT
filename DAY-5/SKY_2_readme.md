@@ -4,6 +4,20 @@
 **--> Lab steps from power straps to std cell power**    
 **--> Basics of Global and detail routing and configure TritonRoute**
 
+1. Go to openlane directory
+2. docker   
+3. pwd
+4. ls -ltr
+5. ./flow.tcl -interactive
+6. package require openlane 0.9
+7. prep -design picorv32a -tag 
+
+
+
+
+
+
+
 In VLSI flow The routing phase very critical that can be using opensource tools or commercial tools.  
 The Routing phase is divided into 2 types.  
 Global Route / Fast Route :- It is being done by fast route. The area to be routed is divided into tiles/rectangles.  
