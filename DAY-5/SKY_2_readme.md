@@ -17,11 +17,22 @@
 7. % prep -design picorv32a -tag 22-03_17-07  ( If we want the configuration from the last run without overwriting)    
 8. % echo ::$env(CURRENT_DEF)   it will give the last stage happened.  
      /openLANE_flow/deisgns/picorv32a/runs/22-03_17-07/results/cts/picorv32a_cts.def 
-9. % gen_pdn    It will generate the Power Distribution Network. It will read the merged.lef & cts.def --> Then it will create the grids and straps for the power and Ground.   
+9. % gen_pdn     ---> It will generate the Power Distribution Network. It will read the merged.lef & cts.def --> Then it will create the grids and straps for the power and Ground.   
 
-## Lab steps from power straps to std cell power  
+## Power straps to std cell power
 
+Power planning is done to provide uniform supply voltages to all the cells in design the primary objective of power planning is to ensure that all on chip components like blocks, memory, IO cells etc have adequate power and ground connections. there are three levels of power distribution that,     
+**Power Rings**--> carries VDD and VSS around the chip   
+**Power Strips**--> carries VDD and VSS  from rings across the chip    
+**Power Rails** --> carries VDD and VSS to the standard cell of VDD and VSS  
 
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/518f7c66-70a7-413a-811a-9d71a6e371c8)
+
+We can see here which metal is connected which power rings, straps, rails information.   
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/4e663633-a3aa-4137-8509-f6c9469a2175)
+
+% echo ::$env(CURRENT_DEF)   it will give the last stage happened.
+/openLANE_flow/deisgns/picorv32a/runs/22-03_17-07/tmp/floorplan/pdn.def 
 
 ## Basics of Global and detail routing and configure TritonRoute  
 
