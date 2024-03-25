@@ -57,7 +57,7 @@ Create the new file using this command vim pre_sta.conf
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/9723a543-0f84-4fe5-8988-b5f7ac6207e7)
 
-What are all settings in base.sdc , I foolwed the same in my_base_sdc   
+What are all settings in base.sdc , I follwed the same in my_base_sdc   
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/98a1921c-aae2-44f5-ab4a-916d442cbc99)
 
@@ -66,4 +66,6 @@ This is the configuration file on which we will do pre-layout analysis.
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/d63c2f20-789d-4164-9537-34488ed2891b)
 
+STA can either be single corner which only uses the LIB_TYPICAL library which is the one used in pre-layout(pos-synthesis) STA or multicorner which uses LIB_SLOWEST(setup analysis, high temp low voltage),LIB_FASTEST(hold analysis, low temp high voltage), and LIB_TYPICAL libraries.
 
+Run STA engine using OpenROAD (which in turn calls OpenSTA): run OpenROAD first then source /openlane/scripts/openroad/sta.tcl which contains the OpenROAD commands for single corner STA. This file also contains the path to the SDC file which specifies the actual timing constraints of the design.
