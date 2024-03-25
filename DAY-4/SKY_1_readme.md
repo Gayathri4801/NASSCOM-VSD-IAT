@@ -199,3 +199,17 @@ tns &wns became 0**
 
 
 ## Locating the Custom Inverter Cell in Layout   
+
+After Placement stage we can see new inverter cell Which is invoked intentionally is placed in the design.   
+
+Go to Placement.def file.  
+Search for instance of cell sky130_myinverter inside the DEF file after placement stage:   
+cat picorv32.def | grep sky130_vsdinv:
+Open the def file via magic:   
+magic -T /home/vsduser/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def read picorv32.def &   
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/44e0efbc-5894-4a58-b8fc-ffe1f06f7bc6)
+
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/9bed5ca5-99bd-4eee-bfd5-3925e004283c)
+
+![Uploading image.png…]()
