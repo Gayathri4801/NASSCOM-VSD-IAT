@@ -196,3 +196,6 @@ The steps I followed is
 tns &wns became 0**   
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/816482a7-c415-4528-a9d7-965c7e3b3d68)
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/22d3211c-3544-4d70-a54b-1bff545d2ecd)
+
+
+## Locating the Custom Inverter Cell in Layout   
