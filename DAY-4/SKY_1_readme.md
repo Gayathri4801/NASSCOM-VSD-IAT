@@ -212,4 +212,5 @@ magic -T /home/vsduser/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tec
 
 ![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/9bed5ca5-99bd-4eee-bfd5-3925e004283c)
 
-![Uploading image.png…]()
+![image](https://github.com/Gayathri4801/NASSCOM-VSD-IAT/assets/163323618/2bb32aff-aa38-4453-8c5c-f144902b979a)
+
